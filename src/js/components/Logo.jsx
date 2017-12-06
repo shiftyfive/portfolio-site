@@ -1,30 +1,30 @@
 import React from 'react';
 import style from '../../css/logo.css';
 
-export default class logo extends React.PureComponent {
+export default class Logo extends React.PureComponent {
   render() {
     return (
       <a href="javascript:void(0)" className="logo">
-      <svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+      <svg id="fart" width="54.99999999999999" height="55">
       <g>
-       <title>Layer 1</title>
-       <rect id="svg_1" height="12" width="12" y="201.989067" x="261.455393" stroke-width="0" stroke="#000000" fill="#0beb90"/>
-       <rect stroke="#000000" id="svg_6" height="12" width="12" y="227.380617" x="281.411704" stroke-width="0" fill="#0beb90"/>
-       <rect id="svg_7" height="12" width="12" y="214.675466" x="281.226169" stroke-width="0" stroke="#000000" fill="#0beb90"/>
-       <rect id="svg_8" height="12" width="12" y="202.012843" x="300.626637" stroke-width="0" stroke="#000000" fill="#0beb90"/>
-       <rect id="svg_9" height="12" width="12" y="202.06801" x="287.400528" stroke-width="0" stroke="#000000" fill="#0beb90"/>
-       <rect id="svg_10" height="12" width="12" y="202.020642" x="274.30841" stroke-width="0" stroke="#000000" fill="#0beb90"/>
-       <rect id="svg_11" height="12" width="12" y="251.166572" x="255.980247" stroke-width="0" stroke="#000000" fill="#0beb90"/>
-       <rect id="svg_12" height="12" width="12" y="257.499471" x="268.93835" stroke-width="0" stroke="#000000" fill="#0beb90"/>
-       <rect id="svg_13" height="12" width="12" y="253.113078" x="281.919315" stroke-width="0" stroke="#000000" fill="#0beb90"/>
-       <rect id="svg_14" height="12" width="12" y="240.23723" x="281.812178" stroke-width="0" stroke="#000000" fill="#0beb90"/>
-       <rect id="svg_2" height="12" width="12" y="245.843605" x="309.692749" stroke-width="0" stroke="#000000" fill="#0beb90"/>
-       <rect id="svg_3" height="12" width="12" y="233.138059" x="304.043543" stroke-width="0" stroke="#000000" fill="#0beb90"/>
-       <rect id="svg_4" height="12" width="12" y="220.167505" x="298.103833" stroke-width="0" stroke="#000000" fill="#0beb90"/>
-       <rect id="svg_5" height="12" width="12" y="232.306976" x="320.73629" stroke-width="0" stroke="#000000" fill="#0beb90"/>
-       <rect id="svg_15" height="12" width="12" y="245.462891" x="331.898779" stroke-width="0" stroke="#000000" fill="#0beb90"/>
-       <rect id="svg_16" height="12" width="12" y="220.016722" x="343.36408" stroke-width="0" stroke="#000000" fill="#0beb90"/>
-       <rect id="svg_17" height="12" width="12" y="232.965367" x="337.544306" stroke-width="0" stroke="#000000" fill="#0beb90"/>
+       <rect fill="#0beb90" stroke="#000000" stroke-width="0" x="13.71576" y="16.99805" width="6" height="6" id="svg_7"/>
+       <rect fill="#0beb90" stroke="#000000" stroke-width="0" x="24.4593" y="10.59575" width="6" height="6" id="svg_8"/>
+       <rect fill="#0beb90" stroke="#000000" stroke-width="0" x="17.28806" y="10.59536" width="6" height="6" id="svg_9"/>
+       <rect fill="#0beb90" stroke-width="0" x="9.71369" y="10.54799" width="6" height="6" id="svg_10" stroke="#000000"/>
+       <rect fill="#0beb90" stroke="#000000" stroke-width="0" x="7.60322" y="39.72381" width="6" height="6" id="svg_11"/>
+       <rect fill="#0beb90" stroke="#000000" stroke-width="0" x="1.10014" y="35.76135" width="6" height="6" id="svg_6"/>
+       <rect fill="#0beb90" stroke="#000000" stroke-width="0" x="13.95088" y="36.93087" width="6" height="6" id="svg_13"/>
+       <rect fill="#0beb90" stroke="#000000" stroke-width="0" x="13.96971" y="30.25149" width="6" height="6" id="svg_14"/>
+       <rect fill="#0beb90" stroke="#000000" stroke-width="0" x="29.02093" y="32.31306" width="6" height="6" id="svg_2"/>
+       <rect fill="#0beb90" stroke="#000000" stroke-width="0" x="25.62533" y="25.92365" width="6" height="6" id="svg_3"/>
+       <rect fill="#0beb90" stroke="#000000" stroke-width="0" x="22.52792" y="19.55552" width="6" height="6" id="svg_4"/>
+       <rect fill="#0beb90" stroke="#000000" stroke-width="0" x="35.03604" y="26.31289" width="6" height="6" id="svg_5"/>
+       <rect fill="#0beb90" stroke="#000000" stroke-width="0" x="44.69991" y="26.06421" width="6" height="6" id="svg_16"/>
+       <rect fill="#0beb90" stroke="#000000" stroke-width="0" x="41.06374" y="32.3071" width="6" height="6" id="svg_17"/>
+       <rect height="6" width="6" y="10.51642" x="2.7435" stroke-width="0" stroke="#000000" fill="#0beb90" id="svg_12"/>
+       <rect fill="#0beb90" stroke-width="0" x="10.32438" y="10.54799" width="6" height="6" stroke="#000000" id="svg_18"/>
+       <rect stroke="#000000" height="6" width="6" y="23.63451" x="13.94277" stroke-width="0" fill="#0beb90" id="svg_19"/>
+       <rect fill="#0beb90" stroke-width="0" x="47.5596" y="19.68" width="6" height="6" stroke="#000000" id="svg_21"/>
       </g>
      </svg>
       </a>

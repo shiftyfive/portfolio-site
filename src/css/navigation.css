@@ -1,0 +1,22 @@
+.wrapper {
+  background-color: #2E4756;
+}
+
+nav {
+  display: inline;
+}
+
+nav ul {
+  display: inline;
+}
+
+nav li {
+  display: inline;
+  color:#F1F2EB;
+  margin-right: 10px;
+  font-family: "Press Start 2p";
+}
+
+.logo {
+  margin-left: 5%;
+}

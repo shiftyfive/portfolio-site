@@ -1,11 +1,12 @@
 import React from 'react';
-import Logo from './Logo';
+import Navigation from '../components/Navigation';
 
 export default class App extends React.Component {
   render() {
     return (
-     <div style={{textAlign: 'center'}}>
-        <Logo />
-      </div>);
+     <div>
+      <Navigation />
+      </div>
+    );
   }
 }
