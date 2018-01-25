@@ -1,0 +1,9 @@
+.cursor {
+  border-right: 0.30em solid #fff;
+  animation: blink-caret .5s step-end infinite;
+}
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+}

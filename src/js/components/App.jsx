@@ -1,11 +1,13 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
+import Navigation from './Navigation';
+import Typewriter from './Typewriter';
 
 export default class App extends React.Component {
   render() {
     return (
-     <div>
-      <Navigation />
+      <div>
+        <Navigation />
+        <Typewriter />
       </div>
     );
   }
