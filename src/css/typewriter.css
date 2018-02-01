@@ -7,3 +7,25 @@
     from, to { border-color: transparent }
     50% { border-color: white }
 }
+
+.title {
+  font-family: "Press Start 2p";
+  color: #F1F2EB;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%)
+}
+
+header {
+  background-image:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  
+  url(https://i.imgur.com/gWQib43.jpg);
+  background-size: cover;
+  height: 100vh;
+}

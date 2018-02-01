@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);a svg g rect:hover{
+  fill: #D30C7B;
+}.wrapper {
+  background-color: #2E4756;
+}
+
+nav {
+  display: inline;
+}
+
+nav ul {
+  display: inline;
+}
+
+nav li {
+  display: inline;
+  color:#F1F2EB;
+  margin-right: 10px;
+  font-family: "Press Start 2p";
+}
+
+.logo {
+  margin-left: 5%;
+}.cursor {
+  border-right: 0.30em solid #fff;
+  animation: blink-caret .5s step-end infinite;
+}
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+}
+
+h2 {
+  font-family: "Press Start 2p";
+  color: #F1F2EB;
+}body {
+  background-color: orange;
+}

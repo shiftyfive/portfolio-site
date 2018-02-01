@@ -5,7 +5,7 @@ export default class Typewriter extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-    sentencesArray: ["Hi my name is Joshua.", "I am a developer.", "I love JavaScript.", "Other programming languages are ok too =).", "I love learning new things."],
+    sentencesArray: [ "Im a developer.", "I love JavaScript.", "Other programming languages are ok too =).", "I love learning new things."],
     currentPhrase: '',
     loopNumber: 0,
     isDeleting: false,
@@ -53,7 +53,12 @@ export default class Typewriter extends React.Component {
   render() {
     return (
       <div>
-        <h3>{this.state.currentPhrase}<span className="cursor"></span></h3>
+      <header>
+          <div className="title">
+            <h2>Hello My name is Joshua</h2>
+            <h2>{this.state.currentPhrase}<span className="cursor"></span></h2>
+          </div>
+        </header>
       </div>
     )
   }
