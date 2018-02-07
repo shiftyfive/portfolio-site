@@ -3374,7 +3374,7 @@ var _App = __webpack_require__(29);
 
 var _App2 = _interopRequireDefault(_App);
 
-var _index = __webpack_require__(49);
+var _index = __webpack_require__(50);
 
 var _index2 = _interopRequireDefault(_index);
 
@@ -20712,9 +20712,9 @@ var _faCss3Alt = __webpack_require__(37);
 
 var _faCss3Alt2 = _interopRequireDefault(_faCss3Alt);
 
-var _faNode = __webpack_require__(38);
+var _faNodeJs = __webpack_require__(38);
 
-var _faNode2 = _interopRequireDefault(_faNode);
+var _faNodeJs2 = _interopRequireDefault(_faNodeJs);
 
 var _faHtml = __webpack_require__(39);
 
@@ -20736,6 +20736,10 @@ var _MyExperience = __webpack_require__(47);
 
 var _MyExperience2 = _interopRequireDefault(_MyExperience);
 
+var _Projects = __webpack_require__(49);
+
+var _Projects2 = _interopRequireDefault(_Projects);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -20744,7 +20748,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-_fontawesome2.default.library.add(_faChevronDown2.default, _faJsSquare2.default, _faCss3Alt2.default, _faNode2.default, _faHtml2.default, _faReact2.default, _faSquare2.default);
+_fontawesome2.default.library.add(_faChevronDown2.default, _faJsSquare2.default, _faCss3Alt2.default, _faNodeJs2.default, _faHtml2.default, _faReact2.default, _faSquare2.default);
 
 var App = function (_React$Component) {
   _inherits(App, _React$Component);
@@ -20762,7 +20766,8 @@ var App = function (_React$Component) {
         'div',
         null,
         _react2.default.createElement(_Typewriter2.default, null),
-        _react2.default.createElement(_MyExperience2.default, null)
+        _react2.default.createElement(_MyExperience2.default, null),
+        _react2.default.createElement(_Projects2.default, null)
       );
     }
   }]);
@@ -21477,7 +21482,7 @@ module.exports = { prefix: 'fab', iconName: 'css3-alt', icon: [384, 512, [], "f3
 /* 38 */
 /***/ (function(module, exports) {
 
-module.exports = { prefix: 'fab', iconName: 'node', icon: [640, 512, [], "f419", "M316.3 452c-2.1 0-4.2-.6-6.1-1.6L291 439c-2.9-1.6-1.5-2.2-.5-2.5 3.8-1.3 4.6-1.6 8.7-4 .4-.2 1-.1 1.4.1l14.8 8.8c.5.3 1.3.3 1.8 0L375 408c.5-.3.9-.9.9-1.6v-66.7c0-.7-.3-1.3-.9-1.6l-57.8-33.3c-.5-.3-1.2-.3-1.8 0l-57.8 33.3c-.6.3-.9 1-.9 1.6v66.7c0 .6.4 1.2.9 1.5l15.8 9.1c8.6 4.3 13.9-.8 13.9-5.8v-65.9c0-.9.7-1.7 1.7-1.7h7.3c.9 0 1.7.7 1.7 1.7v65.9c0 11.5-6.2 18-17.1 18-3.3 0-6 0-13.3-3.6l-15.2-8.7c-3.7-2.2-6.1-6.2-6.1-10.5v-66.7c0-4.3 2.3-8.4 6.1-10.5l57.8-33.4c3.7-2.1 8.5-2.1 12.1 0l57.8 33.4c3.7 2.2 6.1 6.2 6.1 10.5v66.7c0 4.3-2.3 8.4-6.1 10.5l-57.8 33.4c-1.7 1.1-3.8 1.7-6 1.7zm46.7-65.8c0-12.5-8.4-15.8-26.2-18.2-18-2.4-19.8-3.6-19.8-7.8 0-3.5 1.5-8.1 14.8-8.1 11.9 0 16.3 2.6 18.1 10.6.2.8.8 1.3 1.6 1.3h7.5c.5 0 .9-.2 1.2-.5.3-.4.5-.8.4-1.3-1.2-13.8-10.3-20.2-28.8-20.2-16.5 0-26.3 7-26.3 18.6 0 12.7 9.8 16.1 25.6 17.7 18.9 1.9 20.4 4.6 20.4 8.3 0 6.5-5.2 9.2-17.4 9.2-15.3 0-18.7-3.8-19.8-11.4-.1-.8-.8-1.4-1.7-1.4h-7.5c-.9 0-1.7.7-1.7 1.7 0 9.7 5.3 21.3 30.6 21.3 18.5 0 29-7.2 29-19.8zm54.5-50.1c0 6.1-5 11.1-11.1 11.1s-11.1-5-11.1-11.1c0-6.3 5.2-11.1 11.1-11.1 6-.1 11.1 4.8 11.1 11.1zm-1.8 0c0-5.2-4.2-9.3-9.4-9.3-5.1 0-9.3 4.1-9.3 9.3 0 5.2 4.2 9.4 9.3 9.4 5.2-.1 9.4-4.3 9.4-9.4zm-4.5 6.2h-2.6c-.1-.6-.5-3.8-.5-3.9-.2-.7-.4-1.1-1.3-1.1h-2.2v5h-2.4v-12.5h4.3c1.5 0 4.4 0 4.4 3.3 0 2.3-1.5 2.8-2.4 3.1 1.7.1 1.8 1.2 2.1 2.8.1 1 .3 2.7.6 3.3zm-2.8-8.8c0-1.7-1.2-1.7-1.8-1.7h-2v3.5h1.9c1.6 0 1.9-1.1 1.9-1.8zM137.3 191c0-2.7-1.4-5.1-3.7-6.4l-61.3-35.3c-1-.6-2.2-.9-3.4-1h-.6c-1.2 0-2.3.4-3.4 1L3.7 184.6C1.4 185.9 0 188.4 0 191l.1 95c0 1.3.7 2.5 1.8 3.2 1.1.7 2.5.7 3.7 0L42 268.3c2.3-1.4 3.7-3.8 3.7-6.4v-44.4c0-2.6 1.4-5.1 3.7-6.4l15.5-8.9c1.2-.7 2.4-1 3.7-1 1.3 0 2.6.3 3.7 1l15.5 8.9c2.3 1.3 3.7 3.8 3.7 6.4v44.4c0 2.6 1.4 5.1 3.7 6.4l36.4 20.9c1.1.7 2.6.7 3.7 0 1.1-.6 1.8-1.9 1.8-3.2l.2-95zM472.5 87.3v176.4c0 2.6-1.4 5.1-3.7 6.4l-61.3 35.4c-2.3 1.3-5.1 1.3-7.4 0l-61.3-35.4c-2.3-1.3-3.7-3.8-3.7-6.4v-70.8c0-2.6 1.4-5.1 3.7-6.4l61.3-35.4c2.3-1.3 5.1-1.3 7.4 0l15.3 8.8c1.7 1 3.9-.3 3.9-2.2v-94c0-2.8 3-4.6 5.5-3.2l36.5 20.4c2.3 1.2 3.8 3.7 3.8 6.4zm-46 128.9c0-.7-.4-1.3-.9-1.6l-21-12.2c-.6-.3-1.3-.3-1.9 0l-21 12.2c-.6.3-.9.9-.9 1.6v24.3c0 .7.4 1.3.9 1.6l21 12.1c.6.3 1.3.3 1.8 0l21-12.1c.6-.3.9-.9.9-1.6v-24.3zm209.8-.7c2.3-1.3 3.7-3.8 3.7-6.4V192c0-2.6-1.4-5.1-3.7-6.4l-60.9-35.4c-2.3-1.3-5.1-1.3-7.4 0l-61.3 35.4c-2.3 1.3-3.7 3.8-3.7 6.4v70.8c0 2.7 1.4 5.1 3.7 6.4l60.9 34.7c2.2 1.3 5 1.3 7.3 0l36.8-20.5c2.5-1.4 2.5-5 0-6.4L550 241.6c-1.2-.7-1.9-1.9-1.9-3.2v-22.2c0-1.3.7-2.5 1.9-3.2l19.2-11.1c1.1-.7 2.6-.7 3.7 0l19.2 11.1c1.1.7 1.9 1.9 1.9 3.2v17.4c0 2.8 3.1 4.6 5.6 3.2l36.7-21.3zM559 219c-.4.3-.7.7-.7 1.2v13.6c0 .5.3 1 .7 1.2l11.8 6.8c.4.3 1 .3 1.4 0L584 235c.4-.3.7-.7.7-1.2v-13.6c0-.5-.3-1-.7-1.2l-11.8-6.8c-.4-.3-1-.3-1.4 0L559 219zm-254.2 43.5v-70.4c0-2.6-1.6-5.1-3.9-6.4l-61.1-35.2c-2.1-1.2-5-1.4-7.4 0l-61.1 35.2c-2.3 1.3-3.9 3.7-3.9 6.4v70.4c0 2.8 1.9 5.2 4 6.4l61.2 35.2c2.4 1.4 5.2 1.3 7.4 0l61-35.2c1.8-1 3.1-2.7 3.6-4.7.1-.5.2-1.1.2-1.7zm-74.3-124.9l-.8.5h1.1l-.3-.5zm76.2 130.2l-.4-.7v.9l.4-.2z"] };
+module.exports = { prefix: 'fab', iconName: 'node-js', icon: [448, 512, [], "f3d3", "M224 508c-6.7 0-13.5-1.8-19.4-5.2l-61.7-36.5c-9.2-5.2-4.7-7-1.7-8 12.3-4.3 14.8-5.2 27.9-12.7 1.4-.8 3.2-.5 4.6.4l47.4 28.1c1.7 1 4.1 1 5.7 0l184.7-106.6c1.7-1 2.8-3 2.8-5V149.3c0-2.1-1.1-4-2.9-5.1L226.8 37.7c-1.7-1-4-1-5.7 0L36.6 144.3c-1.8 1-2.9 3-2.9 5.1v213.1c0 2 1.1 4 2.9 4.9l50.6 29.2c27.5 13.7 44.3-2.4 44.3-18.7V167.5c0-3 2.4-5.3 5.4-5.3h23.4c2.9 0 5.4 2.3 5.4 5.3V378c0 36.6-20 57.6-54.7 57.6-10.7 0-19.1 0-42.5-11.6l-48.4-27.9C8.1 389.2.7 376.3.7 362.4V149.3c0-13.8 7.4-26.8 19.4-33.7L204.6 9c11.7-6.6 27.2-6.6 38.8 0l184.7 106.7c12 6.9 19.4 19.8 19.4 33.7v213.1c0 13.8-7.4 26.7-19.4 33.7L243.4 502.8c-5.9 3.4-12.6 5.2-19.4 5.2zm149.1-210.1c0-39.9-27-50.5-83.7-58-57.4-7.6-63.2-11.5-63.2-24.9 0-11.1 4.9-25.9 47.4-25.9 37.9 0 51.9 8.2 57.7 33.8.5 2.4 2.7 4.2 5.2 4.2h24c1.5 0 2.9-.6 3.9-1.7s1.5-2.6 1.4-4.1c-3.7-44.1-33-64.6-92.2-64.6-52.7 0-84.1 22.2-84.1 59.5 0 40.4 31.3 51.6 81.8 56.6 60.5 5.9 65.2 14.8 65.2 26.7 0 20.6-16.6 29.4-55.5 29.4-48.9 0-59.6-12.3-63.2-36.6-.4-2.6-2.6-4.5-5.3-4.5h-23.9c-3 0-5.3 2.4-5.3 5.3 0 31.1 16.9 68.2 97.8 68.2 58.4-.1 92-23.2 92-63.4z"] };
 
 /***/ }),
 /* 39 */
@@ -21714,7 +21719,7 @@ var Typewriter = function (_React$Component) {
     var _this = _possibleConstructorReturn(this, (Typewriter.__proto__ || Object.getPrototypeOf(Typewriter)).call(this, props));
 
     _this.state = {
-      sentencesArray: ["Im a developer.", "I love JavaScript.", "I love learning new things.", " I'm a big geek"],
+      sentencesArray: ["I am developer.", "I love JavaScript.", "I love learning new things.", " I am big geek"],
       currentPhrase: '',
       loopNumber: 0,
       isDeleting: false,
@@ -21893,13 +21898,9 @@ var MyExperience = function (_React$PureComponent) {
             _react2.default.createElement(_reactFontawesome2.default, { icon: ["fab", "html5"], color: 'orange', size: '5x' }),
             _react2.default.createElement(_reactFontawesome2.default, { icon: ["fab", "css3-alt"], color: '#1F62AE', size: '5x' }),
             _react2.default.createElement(
-              'span',
-              { className: 'underline' },
-              _react2.default.createElement(
-                'h4',
-                null,
-                'HTML CSS'
-              )
+              'h4',
+              null,
+              'HTML CSS'
             ),
             _react2.default.createElement(
               'p',
@@ -21911,14 +21912,11 @@ var MyExperience = function (_React$PureComponent) {
             'article',
             { className: 'child' },
             _react2.default.createElement(_reactFontawesome2.default, { className: 'js-icon', icon: ["fab", "js-square"], color: 'yellow', size: '5x' }),
+            _react2.default.createElement(_reactFontawesome2.default, { icon: ["fab", "nodeJs"], color: 'green', size: '5x' }),
             _react2.default.createElement(
-              'span',
-              { className: 'underline' },
-              _react2.default.createElement(
-                'h4',
-                null,
-                'JavaScript & NodeJS'
-              )
+              'h4',
+              null,
+              'JavaScript & NodeJS'
             ),
             _react2.default.createElement(
               'p',
@@ -21931,13 +21929,9 @@ var MyExperience = function (_React$PureComponent) {
             { className: 'child' },
             _react2.default.createElement(_reactFontawesome2.default, { icon: ["fab", "react"], color: '#00d8ff', size: '5x' }),
             _react2.default.createElement(
-              'span',
-              { className: 'underline' },
-              _react2.default.createElement(
-                'h4',
-                null,
-                'Frontend Frameworks'
-              )
+              'h4',
+              null,
+              'Frontend Frameworks'
             ),
             _react2.default.createElement(
               'p',
@@ -21963,6 +21957,111 @@ exports.default = MyExperience;
 
 /***/ }),
 /* 49 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Projects = function (_React$PureComponent) {
+  _inherits(Projects, _React$PureComponent);
+
+  function Projects() {
+    _classCallCheck(this, Projects);
+
+    return _possibleConstructorReturn(this, (Projects.__proto__ || Object.getPrototypeOf(Projects)).apply(this, arguments));
+  }
+
+  _createClass(Projects, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "div",
+        { className: "container" },
+        _react2.default.createElement(
+          "div",
+          { className: "flex-container" },
+          _react2.default.createElement(
+            "article",
+            { className: "flex-child" },
+            _react2.default.createElement(
+              "div",
+              { className: "col-1" },
+              _react2.default.createElement(
+                "h2",
+                { className: "project-name" },
+                "Top Shelf Tracker"
+              ),
+              _react2.default.createElement(
+                "p",
+                { className: "project-description" },
+                "meh Kickstarter Portland Carles authentic quinoa jean shorts yr messenger bag YOLO meggings gastropub chillwave +1 pork belly 3 wolf moon lomo fashion axe distillery leggings single-origin coffee High Life 90's Neutra locavore sriracha ennui before they sold out roof party occupy Thundercats squid mlkshk food truck disrupt Schlitz mumblecore hashtag dreamcatcher chia forage drinking vinegar mixtape pop-up stumptown salvia organic bitters direct trade  swag beard shabby chic narwhal flexitarian ugh banh mi literally flannel Echo Park church-key Odd Future readymade bespoke cliche chambray gluten-free selvage street art Marfa letterpress gentrify freegan Banksy artisan cardigan keytar sustainable Wes Anderson asymmetrical farm-to-table XOXO slow-carb photo booth small batch Pinterest wayfarers cray McSweeney's you probably haven't heard of them lo-fi brunch plaid Cosby sweater butcher Tumblr tousled DIY PBR&B raw denim Godard craft beer pickled fanny pack fap blog banjo four loko tote bag bicycle rights kale chips kitsch crucifix sartorial irony cornhole tofu whatever fingerstache wolf twee vegan pug umami kogi normcore iPhone Shoreditch VHS PBR typewriter Blue Bottle Pitchfork viral Etsy retro tattooed Williamsburg synth hella polaroid paleo vinyl art party ethical aesthetic Truffaut 8-bit try-hard selfies master cleanse post-ironic skateboard Bushwick Vice put a bird on it actually pour-over semiotics mustache trust fund hoodie scenester Tonx next level heirloom Austin keffiyeh Brooklyn biodiesel Intelligentsia seitan Helvetica American Apparel cred fixie deep v"
+              )
+            ),
+            _react2.default.createElement("div", { className: "col-2" })
+          ),
+          _react2.default.createElement("div", { className: "flex-child" }),
+          _react2.default.createElement(
+            "article",
+            { className: "flex-child" },
+            _react2.default.createElement(
+              "h2",
+              { className: "project-name" },
+              "Artemis"
+            ),
+            _react2.default.createElement(
+              "p",
+              { className: "project-description" },
+              "DIY chambray cred locavore narwhal Marfa master cleanse pug before they sold out heirloom quinoa Godard fashion axe PBR&B lo-fi Echo Park vinyl you probably haven't heard of them hoodie flannel hashtag seitan chillwave aesthetic ennui meh gentrify fixie +1 tofu normcore Tumblr fanny pack ugh XOXO Odd Future typewriter YOLO mumblecore wolf beard iPhone put a bird on it organic jean shorts Brooklyn cliche sartorial freegan bitters photo booth street art Vice mustache bicycle rights paleo pork belly banh mi disrupt keffiyeh shabby chic twee cray fap salvia leggings stumptown letterpress Pitchfork Schlitz Carles Bushwick drinking vinegar ethical vegan Banksy flexitarian pour-over Helvetica blog Blue Bottle deep v Thundercats tote bag selfies Austin next level kogi butcher crucifix keytar readymade forage try-hard cornhole trust fund Kickstarter roof party biodiesel Portland Tonx small batch 8-bit dreamcatcher messenger bag Shoreditch church-key tousled plaid slow-carb authentic kitsch scenester viral kale chips 90's mlkshk Etsy swag brunch tattooed Truffaut lomo umami artisan yr PBR direct trade  sustainable food truck gastropub pickled wayfarers 3 wolf moon bespoke fingerstache selvage retro whatever Williamsburg raw denim asymmetrical art party High Life chia Cosby sweater sriracha meggings mixtape banjo Intelligentsia cardigan single-origin coffee skateboard post-ironic pop-up literally four loko semiotics VHS Neutra irony polaroid hella Wes Anderson craft beer actually Pinterest American Apparel farm-to-table distillery gluten-free synth squid McSweeney's occupy"
+            )
+          ),
+          _react2.default.createElement(
+            "article",
+            { className: "flex-child" },
+            _react2.default.createElement(
+              "div",
+              { className: "col-1" },
+              _react2.default.createElement(
+                "h2",
+                { className: "project-name" },
+                "Red Rovers"
+              ),
+              _react2.default.createElement(
+                "p",
+                { className: "project-description" },
+                "DIY chambray cred locavore narwhal Marfa master cleanse pug before they sold out heirloom quinoa Godard fashion axe PBR&B lo-fi Echo Park vinyl you probably haven't heard of them hoodie flannel hashtag seitan chillwave aesthetic ennui meh gentrify fixie +1 tofu normcore Tumblr fanny pack ugh XOXO Odd Future typewriter YOLO mumblecore wolf beard iPhone put a bird on it organic jean shorts Brooklyn cliche sartorial freegan bitters photo booth street art Vice mustache bicycle rights paleo pork belly banh mi disrupt keffiyeh shabby chic twee cray fap salvia leggings stumptown letterpress Pitchfork Schlitz Carles Bushwick drinking vinegar ethical vegan Banksy flexitarian pour-over Helvetica blog Blue Bottle deep v Thundercats tote bag selfies Austin next level kogi butcher crucifix keytar readymade forage try-hard cornhole trust fund Kickstarter roof party biodiesel Portland Tonx small batch 8-bit dreamcatcher messenger bag Shoreditch church-key tousled plaid slow-carb authentic kitsch scenester viral kale chips 90's mlkshk Etsy swag brunch tattooed Truffaut lomo umami artisan yr PBR direct trade  sustainable food truck gastropub pickled wayfarers 3 wolf moon bespoke fingerstache selvage retro whatever Williamsburg raw denim asymmetrical art party High Life chia Cosby sweater sriracha meggings mixtape banjo Intelligentsia cardigan single-origin coffee skateboard post-ironic pop-up literally four loko semiotics VHS Neutra irony polaroid hella Wes Anderson craft beer actually Pinterest American Apparel farm-to-table distillery gluten-free synth squid McSweeney's occupy"
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Projects;
+}(_react2.default.PureComponent);
+
+exports.default = Projects;
+
+/***/ }),
+/* 50 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
