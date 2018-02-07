@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);a svg g rect:hover{
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);@import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css);@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);a svg g rect:hover{
   fill: #D30C7B;
 }.wrapper {
   background-color: #2E4756;
@@ -14,7 +14,7 @@ nav ul {
 
 nav li {
   display: inline;
-  color:#F1F2EB;
+  color:#33ff33;
   margin-right: 10px;
   font-family: "Press Start 2p";
 }
@@ -22,18 +22,151 @@ nav li {
 .logo {
   margin-left: 5%;
 }.cursor {
-  border-right: 0.30em solid #fff;
+  border-right: 0.50em solid #fff;
   animation: blink-caret .5s step-end infinite;
 }
 
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: white }
+    50% { border-color:white }
+}
+
+h1 {
+  font-size: 3rem;
 }
 
 h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.title {
   font-family: "Press Start 2p";
-  color: #F1F2EB;
-}body {
-  background-color: orange;
+  color: #33ff33;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%)
+}
+.links{
+  font-family: "Roboto";
+}
+header {
+  background-image:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  
+  url(https://i.imgur.com/gWQib43.jpg);
+  background-size: cover;
+  height: 100vh;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: 3px solid #fff;
+  text-align: center;
+  outline: none;
+  width: 200px;
+  padding: 8px;
+  text-align: center;
+  color: #fff;
+  border-radius: 0px;
+  transition: 
+    background-color 0.2s ease-out,
+    color 0.2s ease-out,
+    border-radius 0.3s ease-out;
+}
+
+.button:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #000;
+  border-radius: 5px;
+  transition:
+    background-color 0.3s ease-in,
+    color 0.3s ease-in,
+    border-radius 0.3s ease-in;
+}
+
+.chevron {
+  color : #fff;
+  margin-top: 2%;
+}
+
+.chevron:hover {
+  color: #33ff33;
+  transition:
+  color 0.3s ease-in;
+}
+
+.chevron-text {
+    color: #f6e8ea;
+}
+
+.links{
+  text-align: center;
+  position: absolute;
+  color: white;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.chevron-text{
+  margin-top: 30%;
+}.experience-body {
+  /* background-color: #616363; */
+  background-color: #22181c;
+  padding: 20px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.blurb {
+  font-family: "Roboto";
+  text-align: center;
+  color: #ef626c;
+}
+
+.underline {
+  text-decoration: underline;
+  color: #ef626c;
+}
+
+.article-text {
+  color: #f6e8ea;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+div p {
+  margin-bottom: 4%;
+}
+
+h4 {
+  margin-bottom: 1.5%;
+  color: #ef626c
+}
+
+.child {
+  width: 33%;
+  font-family: "Roboto";
+}
+
+
+@media all and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
 }

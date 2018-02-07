@@ -1,5 +1,6 @@
 import React from 'react';
 import style from '../../css/typewriter.css';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 
 export default class Typewriter extends React.Component {
   constructor(props) {
@@ -57,7 +58,11 @@ export default class Typewriter extends React.Component {
           <div className="title">
             <h2>Hello My name is Joshua</h2>
             <p>{this.state.currentPhrase}<span className="cursor"></span></p>
-            <button className="button">want to work together?</button>
+          </div>
+          <div className="links">
+              <button className="button">Lets' work together</button>
+              <p className="chevron-text">Would you like to know more?</p>
+              <FontAwesomeIcon className="chevron" icon="chevron-down" size="3x" />
           </div>
         </header>
       </div>

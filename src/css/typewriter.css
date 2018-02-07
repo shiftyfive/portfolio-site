@@ -29,7 +29,9 @@ p {
   text-align: center;
   transform: translate(-50%, -50%)
 }
-
+.links{
+  font-family: "Roboto";
+}
 header {
   background-image:
   linear-gradient(
@@ -40,6 +42,8 @@ header {
   url(https://i.imgur.com/gWQib43.jpg);
   background-size: cover;
   height: 100vh;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .button {
@@ -52,7 +56,6 @@ header {
   padding: 8px;
   text-align: center;
   color: #fff;
-  margin-top: 10%;
   border-radius: 0px;
   transition: 
     background-color 0.2s ease-out,
@@ -69,4 +72,32 @@ header {
     background-color 0.3s ease-in,
     color 0.3s ease-in,
     border-radius 0.3s ease-in;
+}
+
+.chevron {
+  color : #fff;
+  margin-top: 2%;
+}
+
+.chevron:hover {
+  color: #33ff33;
+  transition:
+  color 0.3s ease-in;
+}
+
+.chevron-text {
+    color: #f6e8ea;
+}
+
+.links{
+  text-align: center;
+  position: absolute;
+  color: white;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.chevron-text{
+  margin-top: 30%;
 }

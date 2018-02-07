@@ -1,0 +1,47 @@
+.experience-body {
+  /* background-color: #616363; */
+  background-color: #22181c;
+  padding: 20px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.blurb {
+  font-family: "Roboto";
+  text-align: center;
+  color: #ef626c;
+}
+
+.underline {
+  text-decoration: underline;
+  color: #ef626c;
+}
+
+.article-text {
+  color: #f6e8ea;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+div p {
+  margin-bottom: 4%;
+}
+
+h4 {
+  margin-bottom: 1.5%;
+  color: #ef626c
+}
+
+.child {
+  width: 33%;
+  font-family: "Roboto";
+}
+
+
+@media all and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+}
