@@ -15,6 +15,7 @@ module.exports = {
   output: {
     path: paths.DIST,
     filename: 'app.bundle.js',
+    publicPath: "https://shiftyfive.github.io/portfolio-site"
   },
   plugins: [
     new HtmlWebpackPlugin({
