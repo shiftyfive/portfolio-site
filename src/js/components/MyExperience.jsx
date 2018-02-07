@@ -15,17 +15,18 @@ export default class MyExperience extends React.PureComponent {
           <article className="child">
             <FontAwesomeIcon icon={["fab", "html5"]} color="orange" size="5x" />
             <FontAwesomeIcon icon={["fab", "css3-alt"]} color="#1F62AE" size="5x" />
-            <span className="underline"><h4>HTML CSS</h4></span>
+            <h4>HTML CSS</h4>
             <p className="article-text">Doggo ipsum adorable doggo smol very hand that feed shibe sub woofer borkf, shoober fat boi. Super chub heck heckin good boys vvv he made many woofs, such treat shoober wow such tempt. He made many woofs wrinkler heck lotsa pats you are doing me a frighten, blep dat tungg tho sub</p>
           </article>
           <article className="child">
               <FontAwesomeIcon className="js-icon" icon={["fab", "js-square"]} color="yellow" size="5x" />
-              <span className="underline"><h4>JavaScript & NodeJS</h4></span>
+              <FontAwesomeIcon icon={["fab", "nodeJs"]} color="green" size="5x" />
+              <h4>JavaScript & NodeJS</h4>
               <p className="article-text">Doggo ipsum adorable doggo smol very hand that feed shibe sub woofer borkf, shoober fat boi. Super chub heck heckin good boys vvv he made many woofs, such treat shoober wow such tempt. He made many woofs wrinkler heck lotsa pats you are doing me a frighten, blep dat tungg tho sub</p>
           </article>
           <article className="child">
             <FontAwesomeIcon  icon={["fab", "react"]} color="#00d8ff" size="5x" />
-            <span className="underline"><h4>Frontend Frameworks</h4></span>
+            <h4>Frontend Frameworks</h4>
             <p className="article-text">Doggo ipsum adorable doggo smol very hand that feed shibe sub woofer borkf, shoober fat boi. Super chub heck heckin good boys vvv he made many woofs, such treat shoober wow such tempt. He made many woofs wrinkler heck lotsa pats you are doing me a frighten, blep dat tungg tho sub</p>
           </article>
         </div>

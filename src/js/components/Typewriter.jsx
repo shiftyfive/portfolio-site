@@ -6,7 +6,7 @@ export default class Typewriter extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-    sentencesArray: [ "Im a developer.", "I love JavaScript.", "I love learning new things.", " I'm a big geek"],
+    sentencesArray: [ "I am developer.", "I love JavaScript.", "I love learning new things.", " I am big geek"],
     currentPhrase: '',
     loopNumber: 0,
     isDeleting: false,
