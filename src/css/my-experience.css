@@ -14,9 +14,12 @@
   color: #ef626c;
 }
 
-.underline {
-  text-decoration: underline;
-  color: #ef626c;
+article > h2 {
+  padding-bottom: 10px;
+}
+
+.fa-icon {
+  padding: 10px
 }
 
 .article-text {
@@ -29,14 +32,10 @@ div p {
   margin-bottom: 4%;
 }
 
-h4 {
-  margin-bottom: 1.5%;
-  color: #ef626c
-}
-
 .child {
   width: 33%;
   font-family: "Roboto";
+  color: #ef626c
 }
 
 

@@ -56,8 +56,8 @@ export default class Typewriter extends React.Component {
       <div>
       <header>
           <div className="title">
-            <h2>Hello My name is Joshua</h2>
-            <p>{this.state.currentPhrase}<span className="cursor"></span></p>
+            <h2 className="hi-message">Hello My name is Joshua</h2>
+            <p className="typewriter-text">{this.state.currentPhrase}<span className="cursor"></span></p>
           </div>
           <div className="links">
               <button className="button">Lets' work together</button>

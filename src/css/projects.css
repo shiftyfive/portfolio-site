@@ -1,0 +1,52 @@
+.flex {
+  display: flex;
+   margin-left: 10%;
+   margin-right: 10%;
+   padding-top: 20px;
+   color: #f6e8ea;
+}
+
+.flex-child {
+  width: 45%;
+  margin-right: 5%;
+  
+}
+
+.flex-child.project-name {
+  padding-top: 50px;
+}
+
+.github-icon {
+  
+}
+
+.project-name {
+  margin-top: 20%;
+  padding-bottom: 10px;
+  color: #ef626c;
+}
+
+.projects {
+  text-align: center;
+  font-family: "Roboto";
+  padding-top: 20px;
+  color: #ef626c;
+}
+
+.projects-wrapper {
+  background-color: #222925;
+  color: #f6e8ea;
+}
+
+.top-shelf-tracker-img {
+  max-width: 500px;
+  margin-top: 9%;
+}
+
+.artemis-img {
+  max-width: 200px;
+}
+
+.red-rovers-img{
+  max-width: 500px;
+}
