@@ -57,7 +57,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "https://shiftyfive.github.io/portfolio-site/";
+/******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 18);
@@ -3444,9 +3444,7 @@ var _App = __webpack_require__(30);
 
 var _App2 = _interopRequireDefault(_App);
 
-var _index = __webpack_require__(63);
-
-var _index2 = _interopRequireDefault(_index);
+__webpack_require__(63);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -21667,7 +21665,7 @@ var Typewriter = function (_React$Component) {
 
     _this.tick = _this.tick.bind(_this);
     _this.state = {
-      sentencesArray: ["I am developer.", "I love JavaScript.", "I love learning new things.", " I am big geek"],
+      sentencesArray: ["Im a developer.", "I love JavaScript.", "I love learning new things.", " Im a big geek"],
       currentPhrase: '',
       loopNumber: 0,
       isDeleting: false,
@@ -21848,7 +21846,7 @@ var MyExperience = function (_React$PureComponent) {
             _react2.default.createElement(_reactFontawesome2.default, { className: 'fa-icon', icon: ["fab", "html5"], color: 'orange', size: '5x' }),
             _react2.default.createElement(_reactFontawesome2.default, { className: 'fa-icon', icon: ["fab", "css3-alt"], color: '#1F62AE', size: '5x' }),
             _react2.default.createElement(
-              'h2',
+              'h3',
               null,
               'HTML CSS'
             ),
@@ -21864,7 +21862,7 @@ var MyExperience = function (_React$PureComponent) {
             _react2.default.createElement(_reactFontawesome2.default, { className: 'fa-icon', icon: ["fab", "js-square"], color: 'yellow', size: '5x' }),
             _react2.default.createElement(_reactFontawesome2.default, { className: 'fa-icon', icon: ["fab", "node-js"], color: '#669F64', size: '5x' }),
             _react2.default.createElement(
-              'h2',
+              'h3',
               null,
               'JavaScript & NodeJS'
             ),
@@ -21879,7 +21877,7 @@ var MyExperience = function (_React$PureComponent) {
             { className: 'child' },
             _react2.default.createElement(_reactFontawesome2.default, { className: 'fa-icon', icon: ["fab", "react"], color: '#00d8ff', size: '5x' }),
             _react2.default.createElement(
-              'h2',
+              'h3',
               null,
               'Front-End Frameworks'
             ),
@@ -21969,7 +21967,7 @@ var Projects = function (_React$PureComponent) {
             'div',
             { className: 'flex-child top-shelf-tracker' },
             _react2.default.createElement(
-              'h2',
+              'h3',
               { className: 'project-name' },
               'Top Shelf Tracker'
             ),
@@ -21994,7 +21992,7 @@ var Projects = function (_React$PureComponent) {
             'div',
             { className: 'flex-child' },
             _react2.default.createElement(
-              'h2',
+              'h3',
               { className: 'project-name' },
               'Artemis'
             ),
@@ -22018,7 +22016,7 @@ var Projects = function (_React$PureComponent) {
             'div',
             { className: 'flex-child red-rovers' },
             _react2.default.createElement(
-              'h2',
+              'h3',
               { className: 'project-name' },
               'Red Rovers'
             ),
@@ -22122,8 +22120,8 @@ var ContactMe = function (_React$PureComponent) {
           'Let\'s build something together!'
         ),
         _react2.default.createElement(
-          'p',
-          null,
+          'h4',
+          { className: 'build-text' },
           'I\'m currently accepting new projects. Please take a few minutes to tell me about your project.'
         ),
         _react2.default.createElement(_MyModal2.default, null)
