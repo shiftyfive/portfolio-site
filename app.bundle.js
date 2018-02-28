@@ -261,9 +261,9 @@ process.umask = function() { return 0; };
 /* WEBPACK VAR INJECTION */(function(process) {
 
 if (process.env.NODE_ENV === 'production') {
-  module.exports = __webpack_require__(20);
+  module.exports = __webpack_require__(19);
 } else {
-  module.exports = __webpack_require__(21);
+  module.exports = __webpack_require__(20);
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
@@ -315,7 +315,7 @@ module.exports = emptyFunction;
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, factory) {
-	 true ? module.exports = factory(__webpack_require__(16), __webpack_require__(33), __webpack_require__(1)) :
+	 true ? module.exports = factory(__webpack_require__(16), __webpack_require__(32), __webpack_require__(1)) :
 	typeof define === 'function' && define.amd ? define(['@fortawesome/fontawesome', 'prop-types', 'react'], factory) :
 	(global['react-fontawesome'] = factory(global.FontAwesome,global.PropTypes,global.React));
 }(this, (function (fontawesome,PropTypes,React) { 'use strict';
@@ -898,7 +898,7 @@ return FontAwesomeIcon$1;
 
 })));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(32), __webpack_require__(0)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(31), __webpack_require__(0)))
 
 /***/ }),
 /* 4 */
@@ -1485,7 +1485,7 @@ module.exports = shallowEqual;
  * 
  */
 
-var isTextNode = __webpack_require__(24);
+var isTextNode = __webpack_require__(23);
 
 /*eslint-disable no-bitwise */
 
@@ -3372,7 +3372,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _myButton = __webpack_require__(50);
+var _myButton = __webpack_require__(49);
 
 var _myButton2 = _interopRequireDefault(_myButton);
 
@@ -3429,14 +3429,6 @@ exports.default = MyButton;
 /* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(19);
-(function webpackMissingModule() { throw new Error("Cannot find module \"build\""); }());
-
-
-/***/ }),
-/* 19 */
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -3444,15 +3436,15 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(22);
+var _reactDom = __webpack_require__(21);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _App = __webpack_require__(31);
+var _App = __webpack_require__(30);
 
 var _App2 = _interopRequireDefault(_App);
 
-var _index = __webpack_require__(64);
+var _index = __webpack_require__(63);
 
 var _index2 = _interopRequireDefault(_index);
 
@@ -3461,7 +3453,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 _reactDom2.default.render(_react2.default.createElement(_App2.default, null), document.getElementById('root'));
 
 /***/ }),
-/* 20 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3489,7 +3481,7 @@ isValidElement:K,version:"16.2.0",__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_F
 
 
 /***/ }),
-/* 21 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4854,7 +4846,7 @@ module.exports = react;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 22 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4892,15 +4884,15 @@ if (process.env.NODE_ENV === 'production') {
   // DCE check should happen before ReactDOM bundle executes so that
   // DevTools can report bad minification during injection.
   checkDCE();
-  module.exports = __webpack_require__(23);
+  module.exports = __webpack_require__(22);
 } else {
-  module.exports = __webpack_require__(26);
+  module.exports = __webpack_require__(25);
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 23 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5136,7 +5128,7 @@ Z.injectIntoDevTools({findFiberByHostInstance:pb,bundleType:0,version:"16.2.0",r
 
 
 /***/ }),
-/* 24 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5151,7 +5143,7 @@ Z.injectIntoDevTools({findFiberByHostInstance:pb,bundleType:0,version:"16.2.0",r
  * @typechecks
  */
 
-var isNode = __webpack_require__(25);
+var isNode = __webpack_require__(24);
 
 /**
  * @param {*} object The object to check.
@@ -5164,7 +5156,7 @@ function isTextNode(object) {
 module.exports = isTextNode;
 
 /***/ }),
-/* 25 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5192,7 +5184,7 @@ function isNode(object) {
 module.exports = isNode;
 
 /***/ }),
-/* 26 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5226,8 +5218,8 @@ var containsNode = __webpack_require__(14);
 var focusNode = __webpack_require__(15);
 var emptyObject = __webpack_require__(6);
 var checkPropTypes = __webpack_require__(8);
-var hyphenateStyleName = __webpack_require__(27);
-var camelizeStyleName = __webpack_require__(29);
+var hyphenateStyleName = __webpack_require__(26);
+var camelizeStyleName = __webpack_require__(28);
 
 /**
  * WARNING: DO NOT manually require this module.
@@ -20594,7 +20586,7 @@ module.exports = reactDom;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 27 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20609,7 +20601,7 @@ module.exports = reactDom;
 
 
 
-var hyphenate = __webpack_require__(28);
+var hyphenate = __webpack_require__(27);
 
 var msPattern = /^ms-/;
 
@@ -20636,7 +20628,7 @@ function hyphenateStyleName(string) {
 module.exports = hyphenateStyleName;
 
 /***/ }),
-/* 28 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20672,7 +20664,7 @@ function hyphenate(string) {
 module.exports = hyphenate;
 
 /***/ }),
-/* 29 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20687,7 +20679,7 @@ module.exports = hyphenate;
 
 
 
-var camelize = __webpack_require__(30);
+var camelize = __webpack_require__(29);
 
 var msPattern = /^-ms-/;
 
@@ -20715,7 +20707,7 @@ function camelizeStyleName(string) {
 module.exports = camelizeStyleName;
 
 /***/ }),
-/* 30 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20750,7 +20742,7 @@ function camelize(string) {
 module.exports = camelize;
 
 /***/ }),
-/* 31 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20774,71 +20766,71 @@ var _reactFontawesome = __webpack_require__(3);
 
 var _reactFontawesome2 = _interopRequireDefault(_reactFontawesome);
 
-var _faChevronDown = __webpack_require__(36);
+var _faChevronDown = __webpack_require__(35);
 
 var _faChevronDown2 = _interopRequireDefault(_faChevronDown);
 
-var _faTimesCircle = __webpack_require__(37);
+var _faTimesCircle = __webpack_require__(36);
 
 var _faTimesCircle2 = _interopRequireDefault(_faTimesCircle);
 
-var _faSquare = __webpack_require__(38);
+var _faSquare = __webpack_require__(37);
 
 var _faSquare2 = _interopRequireDefault(_faSquare);
 
-var _faJsSquare = __webpack_require__(39);
+var _faJsSquare = __webpack_require__(38);
 
 var _faJsSquare2 = _interopRequireDefault(_faJsSquare);
 
-var _faCss3Alt = __webpack_require__(40);
+var _faCss3Alt = __webpack_require__(39);
 
 var _faCss3Alt2 = _interopRequireDefault(_faCss3Alt);
 
-var _faNodeJs = __webpack_require__(41);
+var _faNodeJs = __webpack_require__(40);
 
 var _faNodeJs2 = _interopRequireDefault(_faNodeJs);
 
-var _faHtml = __webpack_require__(42);
+var _faHtml = __webpack_require__(41);
 
 var _faHtml2 = _interopRequireDefault(_faHtml);
 
-var _faReact = __webpack_require__(43);
+var _faReact = __webpack_require__(42);
 
 var _faReact2 = _interopRequireDefault(_faReact);
 
-var _faGithubAlt = __webpack_require__(44);
+var _faGithubAlt = __webpack_require__(43);
 
 var _faGithubAlt2 = _interopRequireDefault(_faGithubAlt);
 
-var _faCoffee = __webpack_require__(45);
+var _faCoffee = __webpack_require__(44);
 
 var _faCoffee2 = _interopRequireDefault(_faCoffee);
 
-var _faMusic = __webpack_require__(46);
+var _faMusic = __webpack_require__(45);
 
 var _faMusic2 = _interopRequireDefault(_faMusic);
 
-var _faHeart = __webpack_require__(47);
+var _faHeart = __webpack_require__(46);
 
 var _faHeart2 = _interopRequireDefault(_faHeart);
 
-var _Typewriter = __webpack_require__(48);
+var _Typewriter = __webpack_require__(47);
 
 var _Typewriter2 = _interopRequireDefault(_Typewriter);
 
-var _MyExperience = __webpack_require__(51);
+var _MyExperience = __webpack_require__(50);
 
 var _MyExperience2 = _interopRequireDefault(_MyExperience);
 
-var _Projects = __webpack_require__(53);
+var _Projects = __webpack_require__(52);
 
 var _Projects2 = _interopRequireDefault(_Projects);
 
-var _ContactMe = __webpack_require__(58);
+var _ContactMe = __webpack_require__(57);
 
 var _ContactMe2 = _interopRequireDefault(_ContactMe);
 
-var _Footer = __webpack_require__(62);
+var _Footer = __webpack_require__(61);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -20882,7 +20874,7 @@ var App = function (_React$Component) {
 exports.default = App;
 
 /***/ }),
-/* 32 */
+/* 31 */
 /***/ (function(module, exports) {
 
 var g;
@@ -20909,7 +20901,7 @@ module.exports = g;
 
 
 /***/ }),
-/* 33 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(process) {/**
@@ -20934,17 +20926,17 @@ if (process.env.NODE_ENV !== 'production') {
   // By explicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
-  module.exports = __webpack_require__(34)(isValidElement, throwOnDirectAccess);
+  module.exports = __webpack_require__(33)(isValidElement, throwOnDirectAccess);
 } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
   // http://fb.me/prop-types-in-prod
-  module.exports = __webpack_require__(35)();
+  module.exports = __webpack_require__(34)();
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 34 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21494,7 +21486,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 35 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21559,79 +21551,79 @@ module.exports = function() {
 
 
 /***/ }),
-/* 36 */
+/* 35 */
 /***/ (function(module, exports) {
 
 module.exports = { prefix: 'fas', iconName: 'chevron-down', icon: [448, 512, [], "f078", "M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"] };
 
 /***/ }),
-/* 37 */
+/* 36 */
 /***/ (function(module, exports) {
 
 module.exports = { prefix: 'fas', iconName: 'times-circle', icon: [512, 512, [], "f057", "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"] };
 
 /***/ }),
-/* 38 */
+/* 37 */
 /***/ (function(module, exports) {
 
 module.exports = { prefix: 'fas', iconName: 'square', icon: [448, 512, [], "f0c8", "M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"] };
 
 /***/ }),
-/* 39 */
+/* 38 */
 /***/ (function(module, exports) {
 
 module.exports = { prefix: 'fab', iconName: 'js-square', icon: [448, 512, [], "f3b9", "M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM243.8 381.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"] };
 
 /***/ }),
-/* 40 */
+/* 39 */
 /***/ (function(module, exports) {
 
 module.exports = { prefix: 'fab', iconName: 'css3-alt', icon: [384, 512, [], "f38b", "M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"] };
 
 /***/ }),
-/* 41 */
+/* 40 */
 /***/ (function(module, exports) {
 
 module.exports = { prefix: 'fab', iconName: 'node-js', icon: [448, 512, [], "f3d3", "M224 508c-6.7 0-13.5-1.8-19.4-5.2l-61.7-36.5c-9.2-5.2-4.7-7-1.7-8 12.3-4.3 14.8-5.2 27.9-12.7 1.4-.8 3.2-.5 4.6.4l47.4 28.1c1.7 1 4.1 1 5.7 0l184.7-106.6c1.7-1 2.8-3 2.8-5V149.3c0-2.1-1.1-4-2.9-5.1L226.8 37.7c-1.7-1-4-1-5.7 0L36.6 144.3c-1.8 1-2.9 3-2.9 5.1v213.1c0 2 1.1 4 2.9 4.9l50.6 29.2c27.5 13.7 44.3-2.4 44.3-18.7V167.5c0-3 2.4-5.3 5.4-5.3h23.4c2.9 0 5.4 2.3 5.4 5.3V378c0 36.6-20 57.6-54.7 57.6-10.7 0-19.1 0-42.5-11.6l-48.4-27.9C8.1 389.2.7 376.3.7 362.4V149.3c0-13.8 7.4-26.8 19.4-33.7L204.6 9c11.7-6.6 27.2-6.6 38.8 0l184.7 106.7c12 6.9 19.4 19.8 19.4 33.7v213.1c0 13.8-7.4 26.7-19.4 33.7L243.4 502.8c-5.9 3.4-12.6 5.2-19.4 5.2zm149.1-210.1c0-39.9-27-50.5-83.7-58-57.4-7.6-63.2-11.5-63.2-24.9 0-11.1 4.9-25.9 47.4-25.9 37.9 0 51.9 8.2 57.7 33.8.5 2.4 2.7 4.2 5.2 4.2h24c1.5 0 2.9-.6 3.9-1.7s1.5-2.6 1.4-4.1c-3.7-44.1-33-64.6-92.2-64.6-52.7 0-84.1 22.2-84.1 59.5 0 40.4 31.3 51.6 81.8 56.6 60.5 5.9 65.2 14.8 65.2 26.7 0 20.6-16.6 29.4-55.5 29.4-48.9 0-59.6-12.3-63.2-36.6-.4-2.6-2.6-4.5-5.3-4.5h-23.9c-3 0-5.3 2.4-5.3 5.3 0 31.1 16.9 68.2 97.8 68.2 58.4-.1 92-23.2 92-63.4z"] };
 
 /***/ }),
-/* 42 */
+/* 41 */
 /***/ (function(module, exports) {
 
 module.exports = { prefix: 'fab', iconName: 'html5', icon: [384, 512, [], "f13b", "M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"] };
 
 /***/ }),
-/* 43 */
+/* 42 */
 /***/ (function(module, exports) {
 
 module.exports = { prefix: 'fab', iconName: 'react', icon: [512, 512, [], "f41b", "M418.2 177.2c-5.4-1.8-10.8-3.5-16.2-5.1.9-3.7 1.7-7.4 2.5-11.1 12.3-59.6 4.2-107.5-23.1-123.3-26.3-15.1-69.2.6-112.6 38.4-4.3 3.7-8.5 7.6-12.5 11.5-2.7-2.6-5.5-5.2-8.3-7.7-45.5-40.4-91.1-57.4-118.4-41.5-26.2 15.2-34 60.3-23 116.7 1.1 5.6 2.3 11.1 3.7 16.7-6.4 1.8-12.7 3.8-18.6 5.9C38.3 196.2 0 225.4 0 255.6c0 31.2 40.8 62.5 96.3 81.5 4.5 1.5 9 3 13.6 4.3-1.5 6-2.8 11.9-4 18-10.5 55.5-2.3 99.5 23.9 114.6 27 15.6 72.4-.4 116.6-39.1 3.5-3.1 7-6.3 10.5-9.7 4.4 4.3 9 8.4 13.6 12.4 42.8 36.8 85.1 51.7 111.2 36.6 27-15.6 35.8-62.9 24.4-120.5-.9-4.4-1.9-8.9-3-13.5 3.2-.9 6.3-1.9 9.4-2.9 57.7-19.1 99.5-50 99.5-81.7 0-30.3-39.4-59.7-93.8-78.4zM282.9 92.3c37.2-32.4 71.9-45.1 87.7-36 16.9 9.7 23.4 48.9 12.8 100.4-.7 3.4-1.4 6.7-2.3 10-22.2-5-44.7-8.6-67.3-10.6-13-18.6-27.2-36.4-42.6-53.1 3.9-3.7 7.7-7.2 11.7-10.7zm-130 189.1c4.6 8.8 9.3 17.5 14.3 26.1 5.1 8.7 10.3 17.4 15.8 25.9-15.6-1.7-31.1-4.2-46.4-7.5 4.4-14.4 9.9-29.3 16.3-44.5zm0-50.6c-6.3-14.9-11.6-29.5-16-43.6 14.4-3.2 29.7-5.8 45.6-7.8-5.3 8.3-10.5 16.8-15.4 25.4-4.9 8.5-9.7 17.2-14.2 26zm11.4 25.3c6.6-13.8 13.8-27.3 21.4-40.6 7.6-13.3 15.8-26.2 24.4-38.9 15-1.1 30.3-1.7 45.9-1.7 15.6 0 31 .6 45.9 1.7 8.5 12.6 16.6 25.5 24.3 38.7 7.7 13.2 14.9 26.7 21.7 40.4-6.7 13.8-13.9 27.4-21.6 40.8-7.6 13.3-15.7 26.2-24.2 39-14.9 1.1-30.4 1.6-46.1 1.6-15.7 0-30.9-.5-45.6-1.4-8.7-12.7-16.9-25.7-24.6-39-7.7-13.3-14.8-26.8-21.5-40.6zm180.6 51.2c5.1-8.8 9.9-17.7 14.6-26.7 6.4 14.5 12 29.2 16.9 44.3-15.5 3.5-31.2 6.2-47 8 5.4-8.4 10.5-17 15.5-25.6zm14.4-76.5c-4.7-8.8-9.5-17.6-14.5-26.2-4.9-8.5-10-16.9-15.3-25.2 16.1 2 31.5 4.7 45.9 8-4.6 14.8-10 29.2-16.1 43.4zM256.2 118.3c10.5 11.4 20.4 23.4 29.6 35.8-19.8-.9-39.7-.9-59.5 0 9.8-12.9 19.9-24.9 29.9-35.8zM140.2 57c16.8-9.8 54.1 4.2 93.4 39 2.5 2.2 5 4.6 7.6 7-15.5 16.7-29.8 34.5-42.9 53.1-22.6 2-45 5.5-67.2 10.4-1.3-5.1-2.4-10.3-3.5-15.5-9.4-48.4-3.2-84.9 12.6-94zm-24.5 263.6c-4.2-1.2-8.3-2.5-12.4-3.9-21.3-6.7-45.5-17.3-63-31.2-10.1-7-16.9-17.8-18.8-29.9 0-18.3 31.6-41.7 77.2-57.6 5.7-2 11.5-3.8 17.3-5.5 6.8 21.7 15 43 24.5 63.6-9.6 20.9-17.9 42.5-24.8 64.5zm116.6 98c-16.5 15.1-35.6 27.1-56.4 35.3-11.1 5.3-23.9 5.8-35.3 1.3-15.9-9.2-22.5-44.5-13.5-92 1.1-5.6 2.3-11.2 3.7-16.7 22.4 4.8 45 8.1 67.9 9.8 13.2 18.7 27.7 36.6 43.2 53.4-3.2 3.1-6.4 6.1-9.6 8.9zm24.5-24.3c-10.2-11-20.4-23.2-30.3-36.3 9.6.4 19.5.6 29.5.6 10.3 0 20.4-.2 30.4-.7-9.2 12.7-19.1 24.8-29.6 36.4zm130.7 30c-.9 12.2-6.9 23.6-16.5 31.3-15.9 9.2-49.8-2.8-86.4-34.2-4.2-3.6-8.4-7.5-12.7-11.5 15.3-16.9 29.4-34.8 42.2-53.6 22.9-1.9 45.7-5.4 68.2-10.5 1 4.1 1.9 8.2 2.7 12.2 4.9 21.6 5.7 44.1 2.5 66.3zm18.2-107.5c-2.8.9-5.6 1.8-8.5 2.6-7-21.8-15.6-43.1-25.5-63.8 9.6-20.4 17.7-41.4 24.5-62.9 5.2 1.5 10.2 3.1 15 4.7 46.6 16 79.3 39.8 79.3 58 0 19.6-34.9 44.9-84.8 61.4zM256 210.2c25.3 0 45.8 20.5 45.8 45.8 0 25.3-20.5 45.8-45.8 45.8-25.3 0-45.8-20.5-45.8-45.8 0-25.3 20.5-45.8 45.8-45.8"] };
 
 /***/ }),
-/* 44 */
+/* 43 */
 /***/ (function(module, exports) {
 
 module.exports = { prefix: 'fab', iconName: 'github-alt', icon: [480, 512, [], "f113", "M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"] };
 
 /***/ }),
-/* 45 */
+/* 44 */
 /***/ (function(module, exports) {
 
 module.exports = { prefix: 'fas', iconName: 'coffee', icon: [640, 512, [], "f0f4", "M192 384h192c53 0 96-43 96-96h32c70.6 0 128-57.4 128-128S582.6 32 512 32H120c-13.3 0-24 10.7-24 24v232c0 53 43 96 96 96zM512 96c35.3 0 64 28.7 64 64s-28.7 64-64 64h-32V96h32zm47.7 384H48.3c-47.6 0-61-64-36-64h583.3c25 0 11.8 64-35.9 64z"] };
 
 /***/ }),
-/* 46 */
+/* 45 */
 /***/ (function(module, exports) {
 
 module.exports = { prefix: 'fas', iconName: 'music', icon: [512, 512, [], "f001", "M470.4 1.5l-304 96C153.1 101.7 144 114 144 128v264.6c-14.1-5.4-30.5-8.6-48-8.6-53 0-96 28.7-96 64s43 64 96 64 96-28.7 96-64V220.5l272-85.9v194c-14.1-5.4-30.5-8.6-48-8.6-53 0-96 28.7-96 64s43 64 96 64 96-28.7 96-64V32c0-21.7-21.1-37-41.6-30.5z"] };
 
 /***/ }),
-/* 47 */
+/* 46 */
 /***/ (function(module, exports) {
 
 module.exports = { prefix: 'fas', iconName: 'heart', icon: [576, 512, [], "f004", "M414.9 24C361.8 24 312 65.7 288 89.3 264 65.7 214.2 24 161.1 24 70.3 24 16 76.9 16 165.5c0 72.6 66.8 133.3 69.2 135.4l187 180.8c8.8 8.5 22.8 8.5 31.6 0l186.7-180.2c2.7-2.7 69.5-63.5 69.5-136C560 76.9 505.7 24 414.9 24z"] };
 
 /***/ }),
-/* 48 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21647,7 +21639,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(49);
+__webpack_require__(48);
 
 var _reactFontawesome = __webpack_require__(3);
 
@@ -21774,6 +21766,12 @@ var Typewriter = function (_React$Component) {
 exports.default = Typewriter;
 
 /***/ }),
+/* 48 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
 /* 49 */
 /***/ (function(module, exports) {
 
@@ -21781,12 +21779,6 @@ exports.default = Typewriter;
 
 /***/ }),
 /* 50 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21802,7 +21794,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _myExperience = __webpack_require__(52);
+var _myExperience = __webpack_require__(51);
 
 var _myExperience2 = _interopRequireDefault(_myExperience);
 
@@ -21908,13 +21900,13 @@ var MyExperience = function (_React$PureComponent) {
 exports.default = MyExperience;
 
 /***/ }),
-/* 52 */
+/* 51 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 53 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21930,7 +21922,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _projects = __webpack_require__(54);
+var _projects = __webpack_require__(53);
 
 var _projects2 = _interopRequireDefault(_projects);
 
@@ -21992,7 +21984,7 @@ var Projects = function (_React$PureComponent) {
           _react2.default.createElement(
             'div',
             { className: 'flex-child' },
-            _react2.default.createElement('img', { className: 'project-img', src: __webpack_require__(55), alt: 'Image of top shelf tracker project' })
+            _react2.default.createElement('img', { className: 'project-img', src: __webpack_require__(54), alt: 'Image of top shelf tracker project' })
           )
         ),
         _react2.default.createElement(
@@ -22016,7 +22008,7 @@ var Projects = function (_React$PureComponent) {
           _react2.default.createElement(
             'div',
             { className: 'flex-child' },
-            _react2.default.createElement('img', { className: 'project-img artemis', src: __webpack_require__(56), alt: 'Image of artemis project' })
+            _react2.default.createElement('img', { className: 'project-img artemis', src: __webpack_require__(55), alt: 'Image of artemis project' })
           )
         ),
         _react2.default.createElement(
@@ -22040,7 +22032,7 @@ var Projects = function (_React$PureComponent) {
           _react2.default.createElement(
             'div',
             { className: 'flex-child' },
-            _react2.default.createElement('img', { className: 'project-img', src: __webpack_require__(57) })
+            _react2.default.createElement('img', { className: 'project-img', src: __webpack_require__(56) })
           )
         )
       );
@@ -22053,31 +22045,31 @@ var Projects = function (_React$PureComponent) {
 exports.default = Projects;
 
 /***/ }),
-/* 54 */
+/* 53 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 55 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "17923e5d395764202d905b21e59de0a3.png";
 
 /***/ }),
-/* 56 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "744c1cfa7156cb5f3cac635e2b1608f5.png";
 
 /***/ }),
-/* 57 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fc51eaa9067efdc6599ecf2d685063ff.png";
 
 /***/ }),
-/* 58 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22093,11 +22085,11 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _contactMe = __webpack_require__(59);
+var _contactMe = __webpack_require__(58);
 
 var _contactMe2 = _interopRequireDefault(_contactMe);
 
-var _MyModal = __webpack_require__(60);
+var _MyModal = __webpack_require__(59);
 
 var _MyModal2 = _interopRequireDefault(_MyModal);
 
@@ -22145,13 +22137,13 @@ var ContactMe = function (_React$PureComponent) {
 exports.default = ContactMe;
 
 /***/ }),
-/* 59 */
+/* 58 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 60 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22167,7 +22159,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(61);
+__webpack_require__(60);
 
 var _reactFontawesome = __webpack_require__(3);
 
@@ -22319,13 +22311,13 @@ var MyModal = function (_React$Component) {
 exports.default = MyModal;
 
 /***/ }),
-/* 61 */
+/* 60 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 62 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22345,7 +22337,7 @@ var _reactFontawesome = __webpack_require__(3);
 
 var _reactFontawesome2 = _interopRequireDefault(_reactFontawesome);
 
-__webpack_require__(63);
+__webpack_require__(62);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -22389,13 +22381,13 @@ var Footer = function (_React$PureComponent) {
 exports.default = Footer;
 
 /***/ }),
-/* 63 */
+/* 62 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 64 */
+/* 63 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
