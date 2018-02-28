@@ -22167,6 +22167,8 @@ var _reactFontawesome2 = _interopRequireDefault(_reactFontawesome);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -22195,9 +22197,9 @@ var MyModal = function (_React$Component) {
 
   _createClass(MyModal, [{
     key: 'handleChange',
-    value: function handleChange(event) {
+    value: function handleChange(event, fieldName) {
       console.log(event.target.value);
-      this.setState({ value: event.target.value });
+      this.setState(_defineProperty({}, fieldName, event.target.value));
     }
   }, {
     key: '_toggle',
@@ -22277,19 +22279,25 @@ var MyModal = function (_React$Component) {
                   'label',
                   null,
                   'Name',
-                  _react2.default.createElement('input', { onChange: this.handlechange, value: this.state.name, className: 'modal-input', type: 'text', name: 'name', placeholder: 'Name' })
+                  _react2.default.createElement('input', { onChange: function onChange() {
+                      return _this2.handleChange(event, 'name');
+                    }, value: this.state.name, className: 'modal-input', type: 'text', name: 'name', placeholder: 'Name' })
                 ),
                 _react2.default.createElement(
                   'label',
                   null,
                   'Email',
-                  _react2.default.createElement('input', { onChange: this.handlechange, value: this.state.email, className: 'modal-input', type: 'email', name: '_replyto', placeholder: 'Email' })
+                  _react2.default.createElement('input', { onChange: function onChange() {
+                      return _this2.handleChange(event, 'email');
+                    }, value: this.state.email, className: 'modal-input', type: 'email', name: '_replyto', placeholder: 'Email' })
                 ),
                 _react2.default.createElement(
                   'label',
                   null,
                   'Project Description',
-                  _react2.default.createElement('textarea', { onChange: this.handlechange, git: true, value: this.state.body, className: 'modal-text-area', type: 'text', name: 'body', placeholder: 'Describe your project' })
+                  _react2.default.createElement('textarea', { onChange: function onChange() {
+                      return _this2.handleChange(event, 'body');
+                    }, git: true, value: this.state.body, className: 'modal-text-area', type: 'text', name: 'body', placeholder: 'Describe your project' })
                 ),
                 _react2.default.createElement('input', { className: 'send-email-button', type: 'submit', value: 'Send' })
               )
