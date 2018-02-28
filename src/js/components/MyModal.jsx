@@ -79,12 +79,12 @@ export default class MyModal extends React.Component {
                   <label>Project Description
                     <textarea onChange={(event) => this.handleChange(event.target.value, 'body')} value={this.state.body} className="modal-text-area" type="text" name="body" placeholder="Describe your project"></textarea>
                   </label>
-                  <input className="send-email-button" type="submit" value="Send"></input>
+                  <input className="send-email-button open-modal" type="submit" value="Send"></input>
                 </form>
               </div>
         </div>
       </div>
-        <button className="send-email-button open-model" onClick={() => this._toggle()}>Lets collaborate</button>
+        <button className="send-email-button" onClick={() => this._toggle()}>Lets collaborate</button>
       </div>
     )
   }
