@@ -12,6 +12,7 @@ export default class MyModal extends React.Component {
       isOpen: false,
       name: '',
       email: '',
+      body: '',
     }
   }
 
@@ -68,14 +69,14 @@ export default class MyModal extends React.Component {
             <div className="form-container ">
               <form action="https://formspree.io/joshuawarren000@gmail.com"method="POST">
                   <label>Name
-                    <input value={this.state.name} className="modal-input" type="text" name="name" placeholder="Name"></input>
+                    <input onChange={this.handlechange} value={this.state.name} className="modal-input" type="text" name="name" placeholder="Name"></input>
                   </label>
                   <label>
                     Email
-                    <input value={this.state.email} className="modal-input" type="email" name="_replyto" placeholder="Email"></input>
+                    <input onChange={this.handlechange} value={this.state.email} className="modal-input" type="email" name="_replyto" placeholder="Email"></input>
                   </label>
                   <label>Project Description
-                    <textarea className="modal-text-area" type="text" name="body" placeholder="Describe your project"></textarea>
+                    <textarea onChange={this.handlechange}git value={this.state.body} className="modal-text-area" type="text" name="body" placeholder="Describe your project"></textarea>
                   </label>
                   <input className="send-email-button" type="submit" value="Send"></input>
                 </form>
