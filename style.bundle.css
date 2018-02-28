@@ -242,7 +242,7 @@ div p {
   overflow: hidden;
   position: fixed;
   width: 100vh;
-  height: 100%;
+  height: 540px;
   z-index: 10;
   left: 50%;
   top: 50%;
@@ -256,7 +256,6 @@ div p {
   -2px 0 #7b757b,
   0 2px #424542;
 }
-
 
 
 .modal-overlay {
