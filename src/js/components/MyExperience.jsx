@@ -22,11 +22,11 @@ export default class MyExperience extends React.PureComponent {
               <FontAwesomeIcon className="fa-icon" icon={["fab", "js-square"]} color="yellow" size="5x" />
               <FontAwesomeIcon className="fa-icon" icon={["fab", "node-js"]} color="#669F64" size="5x" />
               <h2>JavaScript & NodeJS</h2>
-              <p className="article-text">Well versed in the latest ECMASCRIPT features. Experienced writting fullstack applications using JavaScript on the front and back end. I pride myself on learning the "under the hood" workings of the JavaScript language.</p>
+              <p className="article-text">Well versed in the latest ECMASCRIPT features. Experienced writing full-stack applications using JavaScript on the front and back end. I pride myself on learning the "under the hood" workings of the JavaScript language.</p>
           </article>
           <article className="child">
             <FontAwesomeIcon className="fa-icon" icon={["fab", "react"]} color="#00d8ff" size="5x" />
-            <h2>Frontend Frameworks</h2>
+            <h2>Front-End Frameworks</h2>
             <p className="article-text">I currently am loving working in the React framework. I'm always trying to keep up with the newest frameworks and build tools used to create beautiful modern applications.</p>
           </article>
         </div>
