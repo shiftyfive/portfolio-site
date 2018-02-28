@@ -17,7 +17,6 @@ export default class MyModal extends React.Component {
   }
 
   handleChange(event, fieldName) {
-    console.log(event.target.value);
     this.setState({[fieldName]: event.target.value});
   }
 
