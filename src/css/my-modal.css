@@ -1,0 +1,144 @@
+.modal-container {
+  overflow: hidden;
+  position: fixed;
+  width: 100vh;
+  height: 100%;
+  z-index: 10;
+  left: 50%;
+  top: 50%;
+  border: solid black;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 1px #e7dfe7,
+  -1px -1px #e7dfe7,
+  1px -1px #e7dfe7,
+  -1px 1px #e7dfe7,
+  0 -2px #9c9a9c,
+  -2px 0 #7b757b,
+  0 2px #424542;
+}
+
+body.modal-open {
+
+}
+
+.modal-overlay {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  z-index: 100;
+  transform: translate(-50%, -50%);
+  font-family: "Press Start 2p";
+  color: white;
+  overflow: hidden;
+  font-size: .7rem;
+  background: #04009d;
+  background: -moz-linear-gradient(top,  #04009d 0%, #06004d 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#04009d), color-stop(100%,#06004d));
+  background: -webkit-linear-gradient(top,  #04009d 0%,#06004d 100%);
+  background: -o-linear-gradient(top,  #04009d 0%,#06004d 100%);
+  background: -ms-linear-gradient(top,  #04009d 0%,#06004d 100%);
+  background: linear-gradient(to bottom,  #04009d 0%,#06004d 100%);
+}
+.modal-overlay > h2 {
+  font-size: 1.5rem;
+}
+
+.modal-overlay > p {
+  font-size: 1rem;
+}
+
+.modal-input:focus {
+  border: 3px solid white;
+}
+
+.modal-text-area:focus {
+  border: 3px solid white;
+}
+.modal-header {
+  padding-bottom: 25px;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-text-area {
+  height: 230px;
+  width: 95%;
+  max-width: 1200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  resize: none;
+}
+
+
+.modal-input {
+  border-radius: 5px;
+  height: 50px;
+  width: 95%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.close-icon {
+  background: transparent no-repeat;
+  width: 20%;
+  margin-left: 80%;
+  outline: none;
+  border: none;
+  overflow: hidden;
+}
+.close-icon:hover {
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: 'Roboto';
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-family: 'Roboto';
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-family: 'Roboto';
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-family: 'Roboto';
+  opacity: 1;
+}
+
+.send-email-button {
+  background-color: Transparent;
+  font-family: "Roboto";
+  background-repeat:no-repeat;
+  border: 3px solid #fff;
+  text-align: center;
+  outline: none;
+  width: 200px;
+  padding: 8px;
+  text-align: center;
+  color: #fff;
+  border-radius: 0px;
+  /*margin-left: 15px;*/
+  /*margin-bottom: 15px;*/
+}
+
+.send-email-button:hover {
+  cursor: pointer;
+  background-color: #000;
+  color: white;
+}
+
+@media all and (max-width: 790px) {
+  .modal-overlay > h2 {
+    font-size: 1rem;
+  }
+
+  .modal-overlay > p {
+    font-size: .5rem;
+  }
+}

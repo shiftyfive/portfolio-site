@@ -69,3 +69,12 @@ header {
 .chevron-text{
   margin-top: 30%;
 }
+
+@media all and (max-width: 500px) {
+  .hi-message{
+    font-size: 1rem;
+  }
+  .typewriter-text {
+    font-size: .8rem;
+  }
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import style from '../../css/projects.css';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import Button from './MyButton'
 
 
 
@@ -12,31 +13,32 @@ export default class Projects extends React.PureComponent {
           <article className="flex">
             <div className="flex-child">
               <h2 className="project-name">Top Shelf Tracker</h2>
-              <p className="project-description">Top Shelf Tracker is a tool designed for entering hockey statistics. This was the project that started my love for the React framework.</p>
-              <button className="button github">Check it out on github. <FontAwesomeIcon className="github-icon" icon={["fab", "github-alt"]} color="blue" size="1x" /></button>
+              <p className="project-description">Top Shelf Tracker is a tool designed for entering hockey statistics. This was the project that started my love for the React framework. I built this project from the groundup by on my own. This was the project capstone for my time at Galvanize.</p>
+              <Button text="Check it out the UI on Github" href="https://github.com/shiftyfive/top-shelf-tracker-UI" newTab={true} />
+              <Button className="second-button" text="Check out the API on Github" href="https://github.com/shiftyfive/top-shelf-tracker-api" newTab={true} />
             </div>
             <div className="flex-child">
-              <img className="top-shelf-tracker-img" src={require("../../images/top-shelf-tracker.png")} alt="Image of top shelf tracker project"></img>
+              <img className="project-img" src={require("../../images/top-shelf-tracker.png")} alt="Image of top shelf tracker project"></img>
             </div>
           </article>
         <article className="flex">
           <div className="flex-child">
             <h2 className="project-name">Artemis</h2>
-            <p className="project-description"></p>
-            <button className="button github">Check it out on github.</button>
+            <p className="project-description">Artemis is a project that I worked on with two other developers. My main contributions were transforming data from the API so that it would be more usable by the front-end, as well as some design work. Built using AngularJS and Cordava.</p>
+            <Button text="Check it out on Github" href=" github.com/Mavyllos/Artemis-Game" newTab={true} />
           </div>
           <div className="flex-child">
-            <img className="artemis-img" src={require("../../images/artemis.png")} alt="Image of artemis project"></img>
+            <img className="project-img artemis" src={require("../../images/artemis.png")} alt="Image of artemis project"></img>
             </div>
         </article>
         <article className="flex">
           <div className="flex-child">
             <h2 className="project-name">Red Rovers</h2>
-            <p className="project-description">DIY chambray cred locavore narwhal Marfa master cleanse pug before they sold out heirloom quinoa Godard fashion axe PBR&B lo-fi Echo Park vinyl you probably haven't heard of them hoodie flannel hashtag seitan chillwave aesthetic ennui meh gentrify fixie +1 tofu normcore Tumblr fanny pack ugh XOXO Odd Future typewriter YOLO mumblecore wolf beard iPhone put a bird on it organic jean shorts Brooklyn cliche sartorial freegan bitters photo booth street art Vice mustache bicycle rights paleo pork belly banh mi disrupt keffiyeh shabby chic twee cray fap salvia leggings stumptown letterpress Pitchfork Schlitz Carles Bushwick drinking vinegar ethical vegan Banksy flexitarian pour-over Helvetica blog Blue Bottle deep v Thundercats tote bag selfies Austin</p>
-            <button className="button github">Check it out on github.</button>
+            <p className="project-description">Red Rovers is a website for viewing pictures that are taken on mars. Using a third party API for the Mars rovers. Built using material design principles.</p>
+            <Button text="Check it out on Github" href="https://github.com/shiftyfive/red_rovers" newTab={true} />
           </div>
           <div className="flex-child">
-            <img className="red-rovers-img" src={require("../../images/red-rovers.png")}></img>
+            <img className="project-img" src={require("../../images/red-rovers.png")}></img>
           </div>
         </article>
       </div>

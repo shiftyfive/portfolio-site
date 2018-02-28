@@ -42,5 +42,10 @@ div p {
 @media all and (max-width: 500px) {
   .container {
     flex-direction: column;
+    justify-content: center;
+  }
+  .child {
+    text-align: center;
+    width: 100%;
   }
 }
