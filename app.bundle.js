@@ -22196,6 +22196,7 @@ var MyModal = function (_React$Component) {
   _createClass(MyModal, [{
     key: 'handleChange',
     value: function handleChange(event) {
+      console.log(event.target.value);
       this.setState({ value: event.target.value });
     }
   }, {
