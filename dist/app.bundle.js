@@ -21871,7 +21871,7 @@ var MyExperience = function (_React$PureComponent) {
             _react2.default.createElement(
               'p',
               { className: 'article-text' },
-              'Well versed in the latest ECMASCRIPT features. Experienced writting fullstack applications using JavaScript on the front and back end. I pride myself on learning the "under the hood" workings of the JavaScript language.'
+              'Well versed in the latest ECMASCRIPT features. Experienced writing full-stack applications using JavaScript on the front and back end. I pride myself on learning the "under the hood" workings of the JavaScript language.'
             )
           ),
           _react2.default.createElement(
@@ -21881,7 +21881,7 @@ var MyExperience = function (_React$PureComponent) {
             _react2.default.createElement(
               'h2',
               null,
-              'Frontend Frameworks'
+              'Front-End Frameworks'
             ),
             _react2.default.createElement(
               'p',
