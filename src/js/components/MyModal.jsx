@@ -16,9 +16,9 @@ export default class MyModal extends React.Component {
     }
   }
 
-  handleChange(event) {
+  handleChange(event, fieldName) {
     console.log(event.target.value);
-    this.setState({value: event.target.value});
+    this.setState({[fieldName]: event.target.value});
   }
 
   _toggle() {
@@ -70,14 +70,14 @@ export default class MyModal extends React.Component {
             <div className="form-container ">
               <form action="https://formspree.io/joshuawarren000@gmail.com"method="POST">
                   <label>Name
-                    <input onChange={this.handlechange} value={this.state.name} className="modal-input" type="text" name="name" placeholder="Name"></input>
+                    <input onChange={() => this.handleChange(event, 'name')} value={this.state.name} className="modal-input" type="text" name="name" placeholder="Name"></input>
                   </label>
                   <label>
                     Email
-                    <input onChange={this.handlechange} value={this.state.email} className="modal-input" type="email" name="_replyto" placeholder="Email"></input>
+                    <input onChange={() =>this.handleChange(event, 'email')} value={this.state.email} className="modal-input" type="email" name="_replyto" placeholder="Email"></input>
                   </label>
                   <label>Project Description
-                    <textarea onChange={this.handlechange}git value={this.state.body} className="modal-text-area" type="text" name="body" placeholder="Describe your project"></textarea>
+                    <textarea onChange={() => this.handleChange(event, 'body')}git value={this.state.body} className="modal-text-area" type="text" name="body" placeholder="Describe your project"></textarea>
                   </label>
                   <input className="send-email-button" type="submit" value="Send"></input>
                 </form>
