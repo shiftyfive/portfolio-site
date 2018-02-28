@@ -57,7 +57,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "https://shiftyfive.github.io/portfolio-site/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 18);
@@ -22198,8 +22198,7 @@ var MyModal = function (_React$Component) {
   _createClass(MyModal, [{
     key: 'handleChange',
     value: function handleChange(event, fieldName) {
-      console.log(event);
-      this.setState(_defineProperty({}, fieldName, event.target.value));
+      this.setState(_defineProperty({}, fieldName, event));
     }
   }, {
     key: '_toggle',
@@ -22279,24 +22278,24 @@ var MyModal = function (_React$Component) {
                   'label',
                   null,
                   'Name',
-                  _react2.default.createElement('input', { onChange: function onChange() {
-                      return _this2.handleChange(event, 'name');
+                  _react2.default.createElement('input', { onChange: function onChange(event) {
+                      return _this2.handleChange(event.target.value, 'name');
                     }, value: this.state.name, className: 'modal-input', type: 'text', name: 'name', placeholder: 'Name' })
                 ),
                 _react2.default.createElement(
                   'label',
                   null,
                   'Email',
-                  _react2.default.createElement('input', { onChange: function onChange() {
-                      return _this2.handleChange(event, 'email');
+                  _react2.default.createElement('input', { onChange: function onChange(event) {
+                      return _this2.handleChange(event.target.value, 'email');
                     }, value: this.state.email, className: 'modal-input', type: 'email', name: '_replyto', placeholder: 'Email' })
                 ),
                 _react2.default.createElement(
                   'label',
                   null,
                   'Project Description',
-                  _react2.default.createElement('textarea', { onChange: function onChange() {
-                      return _this2.handleChange(event, 'body');
+                  _react2.default.createElement('textarea', { onChange: function onChange(event) {
+                      return _this2.handleChange(event.target.value, 'body');
                     }, value: this.state.body, className: 'modal-text-area', type: 'text', name: 'body', placeholder: 'Describe your project' })
                 ),
                 _react2.default.createElement('input', { className: 'send-email-button', type: 'submit', value: 'Send' })
