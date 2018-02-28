@@ -17,6 +17,7 @@ export default class MyModal extends React.Component {
   }
 
   handleChange(event, fieldName) {
+    console.log(event)
     this.setState({[fieldName]: event.target.value});
   }
 
@@ -76,7 +77,7 @@ export default class MyModal extends React.Component {
                     <input onChange={() =>this.handleChange(event, 'email')} value={this.state.email} className="modal-input" type="email" name="_replyto" placeholder="Email"></input>
                   </label>
                   <label>Project Description
-                    <textarea onChange={() => this.handleChange(event, 'body')}git value={this.state.body} className="modal-text-area" type="text" name="body" placeholder="Describe your project"></textarea>
+                    <textarea onChange={() => this.handleChange(event, 'body')} value={this.state.body} className="modal-text-area" type="text" name="body" placeholder="Describe your project"></textarea>
                   </label>
                   <input className="send-email-button" type="submit" value="Send"></input>
                 </form>
