@@ -21,20 +21,21 @@
 }
 
 .project-name {
+  font-family: "Press Start 2p";
   margin-top: 20%;
   padding-bottom: 10px;
-  color: #ef626c;
+  color: #BE7532;
 }
 
 .projects {
   text-align: center;
-  font-family: "Roboto";
+  font-family: "Press Start 2p";
   padding-top: 20px;
-  color: #ef626c;
+  color: #33ff33;
 }
 
 .projects-wrapper {
-  background-color: #222925;
+  background-color: #002b36;
   color: #f6e8ea;
 }
 
@@ -54,6 +55,11 @@
 
 .projects-wrapper {
   padding-bottom: 20px;
+}
+
+.project-description {
+  font-family: "VT323";
+  color: #AFBABA
 }
 
 @media all and (max-width: 995px) {

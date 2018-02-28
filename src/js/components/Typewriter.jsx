@@ -8,7 +8,7 @@ export default class Typewriter extends React.Component {
     super(props);
     this.tick = this.tick.bind(this);
     this.state = {
-    sentencesArray: [ "I am developer.", "I love JavaScript.", "I love learning new things.", " I am big geek"],
+    sentencesArray: [ "Im a developer.", "I love JavaScript.", "I love learning new things.", " Im a big geek"],
     currentPhrase: '',
     loopNumber: 0,
     isDeleting: false,

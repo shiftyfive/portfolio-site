@@ -8,5 +8,15 @@
 }
 
 .build-something {
+  font-family: "Press Start 2p";
+  color: #33ff33;
+}
+
+.build-text {
+  font-family: "Press Start 2p";
+  color: #AFBABA;
+}
+
+.build-something {
   margin-bottom: 20px;
 }
