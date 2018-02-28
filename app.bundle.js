@@ -57,7 +57,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "https://shiftyfive.github.io/portfolio-site/";
+/******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 18);
@@ -22198,7 +22198,7 @@ var MyModal = function (_React$Component) {
   _createClass(MyModal, [{
     key: 'handleChange',
     value: function handleChange(event, fieldName) {
-      console.log(event.target.value);
+      console.log(event);
       this.setState(_defineProperty({}, fieldName, event.target.value));
     }
   }, {
@@ -22297,7 +22297,7 @@ var MyModal = function (_React$Component) {
                   'Project Description',
                   _react2.default.createElement('textarea', { onChange: function onChange() {
                       return _this2.handleChange(event, 'body');
-                    }, git: true, value: this.state.body, className: 'modal-text-area', type: 'text', name: 'body', placeholder: 'Describe your project' })
+                    }, value: this.state.body, className: 'modal-text-area', type: 'text', name: 'body', placeholder: 'Describe your project' })
                 ),
                 _react2.default.createElement('input', { className: 'send-email-button', type: 'submit', value: 'Send' })
               )
