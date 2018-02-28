@@ -17,8 +17,7 @@ export default class MyModal extends React.Component {
   }
 
   handleChange(event, fieldName) {
-    console.log(event)
-    this.setState({[fieldName]: event.target.value});
+    this.setState({[fieldName]: event});
   }
 
   _toggle() {
@@ -69,15 +68,16 @@ export default class MyModal extends React.Component {
             <p className="modal-header-text">You should expect to hear back from me within 24 hours.</p>
             <div className="form-container ">
               <form action="https://formspree.io/joshuawarren000@gmail.com"method="POST">
-                  <label>Name
-                    <input onChange={() => this.handleChange(event, 'name')} value={this.state.name} className="modal-input" type="text" name="name" placeholder="Name"></input>
+                  <label>
+                    Name
+                    <input onChange={(event) => this.handleChange(event.target.value, 'name')} value={this.state.name} className="modal-input" type="text" name="name" placeholder="Name"></input>
                   </label>
                   <label>
                     Email
-                    <input onChange={() =>this.handleChange(event, 'email')} value={this.state.email} className="modal-input" type="email" name="_replyto" placeholder="Email"></input>
+                    <input onChange={(event) => this.handleChange(event.target.value, 'email')} value={this.state.email} className="modal-input" type="email" name="_replyto" placeholder="Email"></input>
                   </label>
                   <label>Project Description
-                    <textarea onChange={() => this.handleChange(event, 'body')} value={this.state.body} className="modal-text-area" type="text" name="body" placeholder="Describe your project"></textarea>
+                    <textarea onChange={(event) => this.handleChange(event.target.value, 'body')} value={this.state.body} className="modal-text-area" type="text" name="body" placeholder="Describe your project"></textarea>
                   </label>
                   <input className="send-email-button" type="submit" value="Send"></input>
                 </form>
