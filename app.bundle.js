@@ -22298,14 +22298,14 @@ var MyModal = function (_React$Component) {
                       return _this2.handleChange(event.target.value, 'body');
                     }, value: this.state.body, className: 'modal-text-area', type: 'text', name: 'body', placeholder: 'Describe your project' })
                 ),
-                _react2.default.createElement('input', { className: 'send-email-button', type: 'submit', value: 'Send' })
+                _react2.default.createElement('input', { className: 'send-email-button open-modal', type: 'submit', value: 'Send' })
               )
             )
           )
         ),
         _react2.default.createElement(
           'button',
-          { className: 'send-email-button open-model', onClick: function onClick() {
+          { className: 'send-email-button', onClick: function onClick() {
               return _this2._toggle();
             } },
           'Lets collaborate'
