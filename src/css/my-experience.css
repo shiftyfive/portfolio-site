@@ -39,7 +39,7 @@ div p {
 }
 
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 585px) {
   .container {
     flex-direction: column;
     justify-content: center;

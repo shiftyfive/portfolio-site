@@ -11,7 +11,7 @@ export default class Projects extends React.PureComponent {
       <div className="projects-wrapper">
         <h2 className="projects">Projects</h2>
           <article className="flex">
-            <div className="flex-child">
+            <div className="flex-child top-shelf-tracker">
               <h2 className="project-name">Top Shelf Tracker</h2>
               <p className="project-description">Top Shelf Tracker is a tool designed for entering hockey statistics. This was the project that started my love for the React framework. I built this project from the groundup by on my own. This was the project capstone for my time at Galvanize.</p>
               <Button text="Check it out the UI on Github" href="https://github.com/shiftyfive/top-shelf-tracker-UI" newTab={true} />
@@ -32,7 +32,7 @@ export default class Projects extends React.PureComponent {
             </div>
         </article>
         <article className="flex">
-          <div className="flex-child">
+          <div className="flex-child red-rovers">
             <h2 className="project-name">Red Rovers</h2>
             <p className="project-description">Red Rovers is a website for viewing pictures that are taken on mars. Using a third party API for the Mars rovers. Built using material design principles.</p>
             <Button text="Check it out on Github" href="https://github.com/shiftyfive/red_rovers" newTab={true} />

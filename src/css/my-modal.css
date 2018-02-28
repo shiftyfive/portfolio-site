@@ -17,9 +17,7 @@
   0 2px #424542;
 }
 
-body.modal-open {
 
-}
 
 .modal-overlay {
   position: fixed;
@@ -41,11 +39,11 @@ body.modal-open {
   background: linear-gradient(to bottom,  #04009d 0%,#06004d 100%);
 }
 .modal-overlay > h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .modal-overlay > p {
-  font-size: 1rem;
+  font-size: .6rem;
 }
 
 .modal-input:focus {
@@ -131,14 +129,4 @@ body.modal-open {
   cursor: pointer;
   background-color: #000;
   color: white;
-}
-
-@media all and (max-width: 790px) {
-  .modal-overlay > h2 {
-    font-size: 1rem;
-  }
-
-  .modal-overlay > p {
-    font-size: .5rem;
-  }
 }

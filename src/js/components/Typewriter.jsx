@@ -7,6 +7,7 @@ export default class Typewriter extends React.Component {
   constructor(props) {
     super(props);
     this.tick = this.tick.bind(this);
+    this.onclick = this.onClick.bind(this);
     this.state = {
     sentencesArray: [ "I am developer.", "I love JavaScript.", "I love learning new things.", " I am big geek"],
     currentPhrase: '',
@@ -62,9 +63,9 @@ export default class Typewriter extends React.Component {
             <p className="typewriter-text">{this.state.currentPhrase}<span className="cursor"></span></p>
           </div>
           <div className="links">
-            <MyButton href="http://www.google.com" text="Lets' work together" />
+            <MyButton href="#two" text="Lets' work together" />
             <p className="chevron-text">Would you like to know more?</p>
-            <a href=""><FontAwesomeIcon className="chevron" icon="chevron-down" size="3x" /></a>
+            <a href="#one"><FontAwesomeIcon className="chevron" icon="chevron-down" size="3x" /></a>
           </div>
         </header>
       </div>
