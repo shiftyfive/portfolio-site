@@ -1,0 +1,17 @@
+.footer-container {
+  background-color: #22181c;
+  color: #f6e8ea;
+  font-family: 'Roboto';
+  height: 10vh;
+  margin-bottom: 0;
+}
+
+.footer-container > p {
+  margin-bottom: 0;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.footer-icon {
+  padding-left: 7px;
+}

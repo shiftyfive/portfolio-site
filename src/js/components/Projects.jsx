@@ -25,7 +25,7 @@ export default class Projects extends React.PureComponent {
           <div className="flex-child">
             <h2 className="project-name">Artemis</h2>
             <p className="project-description">Artemis is a project that I worked on with two other developers. My main contributions were transforming data from the API so that it would be more usable by the front-end, as well as some design work. Built using AngularJS and Cordava.</p>
-            <Button text="Check it out on Github" href=" github.com/Mavyllos/Artemis-Game" newTab={true} />
+            <Button text="Check it out on Github" href="https://github.com/Mavyllos/Artemis-Game" newTab={true} />
           </div>
           <div className="flex-child">
             <img className="project-img artemis" src={require("../../images/artemis.png")} alt="Image of artemis project"></img>

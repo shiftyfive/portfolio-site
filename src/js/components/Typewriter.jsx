@@ -1,5 +1,5 @@
 import React from 'react';
-import style from '../../css/typewriter.css';
+import  '../../css/typewriter.css';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import MyButton from './MyButton'
 
@@ -7,7 +7,6 @@ export default class Typewriter extends React.Component {
   constructor(props) {
     super(props);
     this.tick = this.tick.bind(this);
-    this.onclick = this.onClick.bind(this);
     this.state = {
     sentencesArray: [ "I am developer.", "I love JavaScript.", "I love learning new things.", " I am big geek"],
     currentPhrase: '',
