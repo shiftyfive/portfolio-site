@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6f5e1b09-e2fe-43c0-a734-0e23812ab6d9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/dist/app.bundle.js" afterPath="$PROJECT_DIR$/dist/app.bundle.js" />
       <change beforePath="$PROJECT_DIR$/src/js/components/MyModal.jsx" afterPath="$PROJECT_DIR$/src/js/components/MyModal.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -44,8 +45,8 @@
       <file leaf-file-name="MyModal.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/components/MyModal.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="78" column="58" lean-forward="false" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
+            <state relative-caret-position="187">
+              <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -243,12 +244,12 @@
       <workItem from="1519333676562" duration="2205000" />
       <workItem from="1519769826215" duration="2163000" />
       <workItem from="1519779018419" duration="5283000" />
-      <workItem from="1519784474239" duration="3979000" />
+      <workItem from="1519784474239" duration="4138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37316000" />
+    <option name="totallyTimeSpent" value="37475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="801" extended-state="6" />
@@ -709,8 +710,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/components/MyModal.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="78" column="58" lean-forward="false" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
+        <state relative-caret-position="187">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
           <folding />
         </state>
       </provider>

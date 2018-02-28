@@ -22187,7 +22187,8 @@ var MyModal = function (_React$Component) {
     _this.state = {
       isOpen: false,
       name: '',
-      email: ''
+      email: '',
+      body: ''
     };
     return _this;
   }
@@ -22275,19 +22276,19 @@ var MyModal = function (_React$Component) {
                   'label',
                   null,
                   'Name',
-                  _react2.default.createElement('input', { value: this.state.name, className: 'modal-input', type: 'text', name: 'name', placeholder: 'Name' })
+                  _react2.default.createElement('input', { onChange: this.handlechange, value: this.state.name, className: 'modal-input', type: 'text', name: 'name', placeholder: 'Name' })
                 ),
                 _react2.default.createElement(
                   'label',
                   null,
                   'Email',
-                  _react2.default.createElement('input', { value: this.state.email, className: 'modal-input', type: 'email', name: '_replyto', placeholder: 'Email' })
+                  _react2.default.createElement('input', { onChange: this.handlechange, value: this.state.email, className: 'modal-input', type: 'email', name: '_replyto', placeholder: 'Email' })
                 ),
                 _react2.default.createElement(
                   'label',
                   null,
                   'Project Description',
-                  _react2.default.createElement('textarea', { className: 'modal-text-area', type: 'text', name: 'body', placeholder: 'Describe your project' })
+                  _react2.default.createElement('textarea', { onChange: this.handlechange, git: true, value: this.state.body, className: 'modal-text-area', type: 'text', name: 'body', placeholder: 'Describe your project' })
                 ),
                 _react2.default.createElement('input', { className: 'send-email-button', type: 'submit', value: 'Send' })
               )
