@@ -22,9 +22,9 @@
 
 .project-name {
   font-family: "Press Start 2p";
-  margin-top: 20%;
-  padding-bottom: 10px;
-  color: #BE7532;
+  margin-top: 15%;
+  padding-bottom: 25px;
+  color: #8F76AA;
 }
 
 .projects {
@@ -35,7 +35,7 @@
 }
 
 .projects-wrapper {
-  background-color: #002b36;
+  background-color: #22272d;
   color: #f6e8ea;
 }
 
@@ -69,6 +69,10 @@
   .flex-child {
     width: 100%;
     text-align: center;
+  }
+
+  .project-name {
+    margin-top: 10%;
   }
   .project-img {
     max-width: 100%;

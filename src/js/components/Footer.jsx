@@ -7,11 +7,7 @@ export default class Footer extends React.PureComponent {
     return (
       <footer className="footer-container">
         <p>
-          Made by me using
-        <FontAwesomeIcon className="footer-icon" icon="heart" color="red"/>
-        <FontAwesomeIcon className="footer-icon" icon="music" color="yellow"/>
-        <FontAwesomeIcon className="footer-icon" icon="coffee" color="white"/>
-        <FontAwesomeIcon className="footer-icon" icon={["fab", "react"]} color="#00d8ff" />
+          Made by Joshua Warren
         </p>
       </footer>
     );

@@ -1,25 +1,26 @@
-.my-button {
+.call-to-action {
   background-color: Transparent;
   font-family: "Roboto";
+  font-size: 20px;
+  height: 60px;
   background-repeat: no-repeat;
-  font-size: 13px;
-  border: 3px solid #df5b9a;
-  height: 50px;
+  border: 3px solid #f9acd1;
   text-align: center;
   outline: none;
   width: 200px;
-  padding: 10px;
+  padding: 8px;
   text-align: center;
   color: #f9acd1;
   border-radius: 0px;
+  margin-left: 15px;
   margin-bottom: 15px;
-  transition: 
+  transition:
     background-color 0.2s ease-out,
     color 0.2s ease-out,
     border-radius 0.3s ease-out;
 }
 
-.my-button:hover {
+.call-to-action:hover {
   background-color: #fff;
   cursor: pointer;
   color: #000;

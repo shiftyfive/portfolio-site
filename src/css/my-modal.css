@@ -111,20 +111,20 @@
   background-color: Transparent;
   font-family: "Roboto";
   background-repeat:no-repeat;
-  border: 3px solid #fff;
+  border: 3px solid #f9acd1;
   text-align: center;
   outline: none;
   width: 200px;
   text-align: center;
-  color: #fff;
+  color: #f9acd1;
   border-radius: 0px;
   padding: 8px 8px 10px;
 }
 
 .send-email-button:hover {
   cursor: pointer;
-  background-color: #000;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .send-email-button.open-modal {

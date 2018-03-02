@@ -13,9 +13,12 @@ export default class Projects extends React.PureComponent {
           <article className="flex">
             <div className="flex-child top-shelf-tracker">
               <h3 className="project-name">Top Shelf Tracker</h3>
-              <p className="project-description">Top Shelf Tracker is a tool designed for entering hockey statistics. This was the project that started my love for the React framework. I built this project from the groundup by on my own. This was the project capstone for my time at Galvanize.</p>
-              <Button text="Check it out the UI on Github" href="https://github.com/shiftyfive/top-shelf-tracker-UI" newTab={true} />
-              <Button className="second-button" text="Check out the API on Github" href="https://github.com/shiftyfive/top-shelf-tracker-api" newTab={true} />
+              <p className="project-description">Top Shelf Tracker is a tool designed for entering hockey statistics. This was the project that started my love for the React framework. I built this project from the ground up by on my own. This was the project capstone for my time at Galvanize.</p>
+              <Button text="Check out the UI on Github" href="https://github.com/shiftyfive/top-shelf-tracker-UI" newTab={true} />
+              <div>
+                <Button className="second-button" text="Check out the API on Github" href="https://github.com/shiftyfive/top-shelf-tracker-api" newTab={true} />
+              </div>
+
             </div>
             <div className="flex-child">
               <img className="project-img" src={require("../../images/top-shelf-tracker.png")} alt="Image of top shelf tracker project"></img>
@@ -24,7 +27,7 @@ export default class Projects extends React.PureComponent {
         <article className="flex">
           <div className="flex-child">
             <h3 className="project-name">Artemis</h3>
-            <p className="project-description">Artemis is a project that I worked on with two other developers. My main contributions were transforming data from the API so that it would be more usable by the front-end, as well as some design work. Built using AngularJS and Cordava.</p>
+            <p className="project-description">Artemis is a project that I worked on with two other developers. My main contributions were transforming data from the API so that it would be more usable by the front-end, as well as some design work. Built using AngularJS and Cordova.</p>
             <Button text="Check it out on Github" href="https://github.com/Mavyllos/Artemis-Game" newTab={true} />
           </div>
           <div className="flex-child">

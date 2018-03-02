@@ -1,7 +1,7 @@
 import React from 'react';
 import  '../../css/typewriter.css';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import MyButton from './MyButton'
+import CallToActionButton from './CallToAction';
 
 export default class Typewriter extends React.Component {
   constructor(props) {
@@ -62,7 +62,7 @@ export default class Typewriter extends React.Component {
             <p className="typewriter-text">{this.state.currentPhrase}<span className="cursor"></span></p>
           </div>
           <div className="links">
-            <MyButton href="#two" text="Lets' work together" />
+            <CallToActionButton className="call-to-action-button" href="#two" text="Let's work together"/>
             <p className="chevron-text">Would you like to know more?</p>
             <a href="#one"><FontAwesomeIcon className="chevron" icon="chevron-down" size="3x" /></a>
           </div>
