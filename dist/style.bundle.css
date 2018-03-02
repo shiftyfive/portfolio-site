@@ -44,8 +44,8 @@ header {
 }
 
 .chevron {
-  color : #fff;
-  margin-top: 2%;
+  color : #dadfdf;
+  padding-bottom: 10%;
 }
 
 .chevron:hover {
@@ -55,21 +55,23 @@ header {
 }
 
 .chevron-text {
-    color: #f6e8ea;
+    color: #dadfdf;
+    font-family: "Press Start 2p";
 }
 
 .links{
   text-align: center;
   position: absolute;
-  color: white;
+  color: #dadfdf;
   top: 85%;
   left: 50%;
   transform: translate(-50%, -50%)
 }
 
 .chevron-text{
-  margin-top: 30%;
+  margin-top: 15%;
 }
+
 
 @media all and (max-width: 500px) {
   .hi-message{
@@ -78,27 +80,29 @@ header {
   .typewriter-text {
     font-size: .8rem;
   }
-}.my-button {
+}.call-to-action {
   background-color: Transparent;
   font-family: "Roboto";
-  background-repeat:no-repeat;
-  border: 3px solid #fff;
+  font-size: 20px;
+  height: 60px;
+  background-repeat: no-repeat;
+  border: 3px solid #f9acd1;
   text-align: center;
   outline: none;
   width: 200px;
   padding: 8px;
   text-align: center;
-  color: #fff;
+  color: #f9acd1;
   border-radius: 0px;
   margin-left: 15px;
   margin-bottom: 15px;
-  transition: 
+  transition:
     background-color 0.2s ease-out,
     color 0.2s ease-out,
     border-radius 0.3s ease-out;
 }
 
-.my-button:hover {
+.call-to-action:hover {
   background-color: #fff;
   cursor: pointer;
   color: #000;
@@ -108,7 +112,7 @@ header {
     color 0.3s ease-in,
     border-radius 0.3s ease-in;
 }.experience-body {
-  background-color: #333333;
+  background-color: #292f36;
   padding: 20px;
 }
 .container {
@@ -120,11 +124,16 @@ header {
   font-family: "Press Start 2p";
   text-align: center;
   color: #33ff33;
+  padding-top: 10px;
+}
+
+.article > h3 {
+  padding-bottom: 20px;
 }
 
 article > h3 {
   padding-bottom: 10px;
-  color: 	#8F76AAn;
+  color: 	#8F76AA;
 }
 
 .fa-icon {
@@ -182,8 +191,8 @@ div p {
 
 .project-name {
   font-family: "Press Start 2p";
-  margin-top: 20%;
-  padding-bottom: 10px;
+  margin-top: 15%;
+  padding-bottom: 25px;
   color: #8F76AA;
 }
 
@@ -195,7 +204,7 @@ div p {
 }
 
 .projects-wrapper {
-  background-color: #211B11;
+  background-color: #22272d;
   color: #f6e8ea;
 }
 
@@ -230,16 +239,50 @@ div p {
     width: 100%;
     text-align: center;
   }
+
+  .project-name {
+    margin-top: 10%;
+  }
   .project-img {
     max-width: 100%;
   }
   .project-img.artemis {
     margin-left: 0;
   }
+}.my-button {
+  background-color: Transparent;
+  font-family: "Roboto";
+  background-repeat: no-repeat;
+  font-size: 13px;
+  border: 3px solid #df5b9a;
+  height: 50px;
+  text-align: center;
+  outline: none;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  color: #f9acd1;
+  border-radius: 0px;
+  margin-bottom: 15px;
+  transition: 
+    background-color 0.2s ease-out,
+    color 0.2s ease-out,
+    border-radius 0.3s ease-out;
+}
+
+.my-button:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #000;
+  border-radius: 5px;
+  transition:
+    background-color 0.3s ease-in,
+    color 0.3s ease-in,
+    border-radius 0.3s ease-in;
 }.contact-me-container {
   text-align: center;
-  background-color: #22181c;
-  color: #f6e8ea;
+  background-color: #1b1e23;
+  color: #17191d;
   padding-top: 5%;
   padding-bottom: 5%;
   font-family: 'Roboto';
@@ -251,8 +294,9 @@ div p {
 }
 
 .build-text {
-  font-family: "Press Start 2p";
   color: #AFBABA;
+  font-family: "Press Start 2p";
+  margin-bottom: 20px;
 }
 
 .build-something {
@@ -370,29 +414,29 @@ div p {
   background-color: Transparent;
   font-family: "Roboto";
   background-repeat:no-repeat;
-  border: 3px solid #fff;
+  border: 3px solid #f9acd1;
   text-align: center;
   outline: none;
   width: 200px;
   text-align: center;
-  color: #fff;
+  color: #f9acd1;
   border-radius: 0px;
   padding: 8px 8px 10px;
 }
 
 .send-email-button:hover {
   cursor: pointer;
-  background-color: #000;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .send-email-button.open-modal {
   margin-bottom: 15px;
 }
 .footer-container {
-  background-color: #8E866D;
-  color: #f6e8ea;
-  font-family: 'Roboto';
+  background-color: #0d0e10;
+  color: #33ff33;
+  font-family: 'Press Start 2p';
   height: 10vh;
   margin-bottom: 0;
 }
