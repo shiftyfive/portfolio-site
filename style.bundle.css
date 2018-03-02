@@ -124,7 +124,7 @@ header {
 
 article > h3 {
   padding-bottom: 10px;
-  color: 	#BE7532;
+  color: 	#8F76AAn;
 }
 
 .fa-icon {
@@ -145,7 +145,7 @@ div p {
 .child {
   width: 33%;
   font-family: "Press Start 2p";
-  color: #ef626c
+  color: #8F76AA
 }
 
 
@@ -184,7 +184,7 @@ div p {
   font-family: "Press Start 2p";
   margin-top: 20%;
   padding-bottom: 10px;
-  color: #BE7532;
+  color: #8F76AA;
 }
 
 .projects {
@@ -195,7 +195,7 @@ div p {
 }
 
 .projects-wrapper {
-  background-color: #002b36;
+  background-color: #211B11;
   color: #f6e8ea;
 }
 
@@ -238,7 +238,7 @@ div p {
   }
 }.contact-me-container {
   text-align: center;
-  background-color: #32021f;
+  background-color: #22181c;
   color: #f6e8ea;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -390,7 +390,7 @@ div p {
   margin-bottom: 15px;
 }
 .footer-container {
-  background-color: #22181c;
+  background-color: #8E866D;
   color: #f6e8ea;
   font-family: 'Roboto';
   height: 10vh;
